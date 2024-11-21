@@ -1,0 +1,141 @@
+:: profile [noreturn]
+<div class="profile-pick-cont">
+    <span class="profile-nav">\
+            <<link "<span class='profile-selected'>you.</span>" "profile">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "ilya." "ilya-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "vira." "vira-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "aurius." "aurius-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "rhian." "rhian-pfp">><</link>>
+    </span>
+</div>
+<div class="sushi"><span>who are you?</span></div>
+
+
+:: ilya-pfp [noreturn]
+<div class="profile-pick-cont">
+    <span class="profile-nav">\
+            <<link "you." "profile">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "<span class='profile-selected'>ilya.</span>" "ilya-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "vira." "vira-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "aurius." "aurius-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "rhian." "rhian-pfp">><</link>>
+    </span>
+</div>
+<div class="sushi"><span>the rot spreads</span></div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor elit vel est facilisis, nec pulvinar urna eleifend. Mauris a risus a justo convallis tincidunt eu non erat. Mauris ac mi mi. Dyouc nec vulputate felis. Morbi blandit congue metus quis molestie. In faucibus interdum augue ut fermentum. Etiam accumsan ex bibendum varius faucibus. Etiam tempor varius erat, quis pulvinar ante rutrum vitae. Dyouc id mauris eget ante pulvinar varius vitae at velit. Fusce finibus, nulla vel efficitur posuere, sapien tellus malesuada nisi, id gravida justo est mattis neque. Morbi posuere justo eget nibh posuere consectetur.
+
+Pellentesque mattis risus quis tristique placerat. Dyouc id rutrum massa. Integer condimentum ligula in lacus fermentum ultrices. Aenean lacinia, nulla nec consectetur posuere, sapien sem vehicula dui, et suscipit turpis enim sed tortor. Pellentesque rutrum massa et ligula tincidunt, rutrum aliquam elit faucibus. Nulla rutrum quam mi, sed laoreet eros placerat vitae. Vivamus tincidunt, odio at accumsan pulvinar, nibh eros tempor diam, ut ultrices tortor lacus at urna. Dyouc elementum augue enim, nec eleifend nunc interdum et. Nullam accumsan nec mauris ut lacinia.
+
+Sed erat lorem, mollis nec bibendum et, imperdiet vitae nunc. Aliquam eleifend nibh at tortor tristique fermentum. Nullam id elit leo. Sed blandit nisl tortor, eget egestas orci pellentesque sit amet. Etiam quis tortor tellus. Integer eleifend suscipit eleifend. Maecenas maximus fermentum erat in tempus. Praesent vel dui nec metus tincidunt malesuada.
+
+Aliquam turpis odio, vulputate sed dui cursus, bibendum hendrerit justo. Nulla non placerat nisl. Proin in venenatis urna. Mauris lobortis enim ac urna pharetra, eget volutpat sem fringilla. Duis sed sem rhoncus, finibus lorem nec, pharetra ante. Aenean sed faucibus nulla, ut dignissim sapien. Suspendisse est nisi, sodales eu nulla iaculis, convallis egestas augue. Morbi quis vehicula felis, a consectetur lacus.
+
+Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. Fusce suscipit velit risus. Ut rhoncus, purus vehicula suscipit porta, dui metus venenatis erat, vitae elementum orci enim et tellus. Sed gravida vehicula tincidunt. Curabitur hendrerit rhoncus est in dictum. Morbi tristique leo nisi, ut volutpat elit efficitur sed. Fusce arcu risus, fringilla et ante in, congue interdum sem. Sed sagittis diam eget libero tempus, ac placerat est placerat. Curabitur vel molestie est. Proin sapien ante, eleifend id dictum in, porttitor quis nunc.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor elit vel est facilisis, nec pulvinar urna eleifend. Mauris a risus a justo convallis tincidunt eu non erat. Mauris ac mi mi. Dyouc nec vulputate felis. Morbi blandit congue metus quis molestie. In faucibus interdum augue ut fermentum. Etiam accumsan ex bibendum varius faucibus. Etiam tempor varius erat, quis pulvinar ante rutrum vitae. Dyouc id mauris eget ante pulvinar varius vitae at velit. Fusce finibus, nulla vel efficitur posuere, sapien tellus malesuada nisi, id gravida justo est mattis neque. Morbi posuere justo eget nibh posuere consectetur.
+
+Pellentesque mattis risus quis tristique placerat. Dyouc id rutrum massa. Integer condimentum ligula in lacus fermentum ultrices. Aenean lacinia, nulla nec consectetur posuere, sapien sem vehicula dui, et suscipit turpis enim sed tortor. Pellentesque rutrum massa et ligula tincidunt, rutrum aliquam elit faucibus. Nulla rutrum quam mi, sed laoreet eros placerat vitae. Vivamus tincidunt, odio at accumsan pulvinar, nibh eros tempor diam, ut ultrices tortor lacus at urna. Dyouc elementum augue enim, nec eleifend nunc interdum et. Nullam accumsan nec mauris ut lacinia.
+
+Sed erat lorem, mollis nec bibendum et, imperdiet vitae nunc. Aliquam eleifend nibh at tortor tristique fermentum. Nullam id elit leo. Sed blandit nisl tortor, eget egestas orci pellentesque sit amet. Etiam quis tortor tellus. Integer eleifend suscipit eleifend. Maecenas maximus fermentum erat in tempus. Praesent vel dui nec metus tincidunt malesuada.
+
+Aliquam turpis odio, vulputate sed dui cursus, bibendum hendrerit justo. Nulla non placerat nisl. Proin in venenatis urna. Mauris lobortis enim ac urna pharetra, eget volutpat sem fringilla. Duis sed sem rhoncus, finibus lorem nec, pharetra ante. Aenean sed faucibus nulla, ut dignissim sapien. Suspendisse est nisi, sodales eu nulla iaculis, convallis egestas augue. Morbi quis vehicula felis, a consectetur lacus.
+
+Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. Fusce suscipit velit risus. Ut rhoncus, purus vehicula suscipit porta, dui metus venenatis erat, vitae elementum orci enim et tellus. Sed gravida vehicula tincidunt. Curabitur hendrerit rhoncus est in dictum. Morbi tristique leo nisi, ut volutpat elit efficitur sed. Fusce arcu risus, fringilla et ante in, congue interdum sem. Sed sagittis diam eget libero tempus, ac placerat est placerat. Curabitur vel molestie est. Proin sapien ante, eleifend id dictum in, porttitor quis nunc.
+
+
+
+
+:: vira-pfp [noreturn] 
+<div class="profile-pick-cont">
+    <span class="profile-nav">\
+            <<link "you." "profile">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "ilya." "ilya-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "<span class='profile-selected'>vira.</span>" "vira-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "aurius." "aurius-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "rhian." "rhian-pfp">><</link>>
+    </span>
+</div>
+<div class="sushi"><span>bang bang</span></div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor elit vel est facilisis, nec pulvinar urna eleifend. Mauris a risus a justo convallis tincidunt eu non erat. Mauris ac mi mi. Dyouc nec vulputate felis. Morbi blandit congue metus quis molestie. In faucibus interdum augue ut fermentum. Etiam accumsan ex bibendum varius faucibus. Etiam tempor varius erat, quis pulvinar ante rutrum vitae. Dyouc id mauris eget ante pulvinar varius vitae at velit. Fusce finibus, nulla vel efficitur posuere, sapien tellus malesuada nisi, id gravida justo est mattis neque. Morbi posuere justo eget nibh posuere consectetur.
+
+Pellentesque mattis risus quis tristique placerat. Dyouc id rutrum massa. Integer condimentum ligula in lacus fermentum ultrices. Aenean lacinia, nulla nec consectetur posuere, sapien sem vehicula dui, et suscipit turpis enim sed tortor. Pellentesque rutrum massa et ligula tincidunt, rutrum aliquam elit faucibus. Nulla rutrum quam mi, sed laoreet eros placerat vitae. Vivamus tincidunt, odio at accumsan pulvinar, nibh eros tempor diam, ut ultrices tortor lacus at urna. Dyouc elementum augue enim, nec eleifend nunc interdum et. Nullam accumsan nec mauris ut lacinia.
+
+Sed erat lorem, mollis nec bibendum et, imperdiet vitae nunc. Aliquam eleifend nibh at tortor tristique fermentum. Nullam id elit leo. Sed blandit nisl tortor, eget egestas orci pellentesque sit amet. Etiam quis tortor tellus. Integer eleifend suscipit eleifend. Maecenas maximus fermentum erat in tempus. Praesent vel dui nec metus tincidunt malesuada.
+
+Aliquam turpis odio, vulputate sed dui cursus, bibendum hendrerit justo. Nulla non placerat nisl. Proin in venenatis urna. Mauris lobortis enim ac urna pharetra, eget volutpat sem fringilla. Duis sed sem rhoncus, finibus lorem nec, pharetra ante. Aenean sed faucibus nulla, ut dignissim sapien. Suspendisse est nisi, sodales eu nulla iaculis, convallis egestas augue. Morbi quis vehicula felis, a consectetur lacus.
+
+Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. Fusce suscipit velit risus. Ut rhoncus, purus vehicula suscipit porta, dui metus venenatis erat, vitae elementum orci enim et tellus. Sed gravida vehicula tincidunt. Curabitur hendrerit rhoncus est in dictum. Morbi tristique leo nisi, ut volutpat elit efficitur sed. Fusce arcu risus, fringilla et ante in, congue interdum sem. Sed sagittis diam eget libero tempus, ac placerat est placerat. Curabitur vel molestie est. Proin sapien ante, eleifend id dictum in, porttitor quis nunc.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor elit vel est facilisis, nec pulvinar urna eleifend. Mauris a risus a justo convallis tincidunt eu non erat. Mauris ac mi mi. Dyouc nec vulputate felis. Morbi blandit congue metus quis molestie. In faucibus interdum augue ut fermentum. Etiam accumsan ex bibendum varius faucibus. Etiam tempor varius erat, quis pulvinar ante rutrum vitae. Dyouc id mauris eget ante pulvinar varius vitae at velit. Fusce finibus, nulla vel efficitur posuere, sapien tellus malesuada nisi, id gravida justo est mattis neque. Morbi posuere justo eget nibh posuere consectetur.
+
+Pellentesque mattis risus quis tristique placerat. Dyouc id rutrum massa. Integer condimentum ligula in lacus fermentum ultrices. Aenean lacinia, nulla nec consectetur posuere, sapien sem vehicula dui, et suscipit turpis enim sed tortor. Pellentesque rutrum massa et ligula tincidunt, rutrum aliquam elit faucibus. Nulla rutrum quam mi, sed laoreet eros placerat vitae. Vivamus tincidunt, odio at accumsan pulvinar, nibh eros tempor diam, ut ultrices tortor lacus at urna. Dyouc elementum augue enim, nec eleifend nunc interdum et. Nullam accumsan nec mauris ut lacinia.
+
+Sed erat lorem, mollis nec bibendum et, imperdiet vitae nunc. Aliquam eleifend nibh at tortor tristique fermentum. Nullam id elit leo. Sed blandit nisl tortor, eget egestas orci pellentesque sit amet. Etiam quis tortor tellus. Integer eleifend suscipit eleifend. Maecenas maximus fermentum erat in tempus. Praesent vel dui nec metus tincidunt malesuada.
+
+Aliquam turpis odio, vulputate sed dui cursus, bibendum hendrerit justo. Nulla non placerat nisl. Proin in venenatis urna. Mauris lobortis enim ac urna pharetra, eget volutpat sem fringilla. Duis sed sem rhoncus, finibus lorem nec, pharetra ante. Aenean sed faucibus nulla, ut dignissim sapien. Suspendisse est nisi, sodales eu nulla iaculis, convallis egestas augue. Morbi quis vehicula felis, a consectetur lacus.
+
+Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. Fusce suscipit velit risus. Ut rhoncus, purus vehicula suscipit porta, dui metus venenatis erat, vitae elementum orci enim et tellus. Sed gravida vehicula tincidunt. Curabitur hendrerit rhoncus est in dictum. Morbi tristique leo nisi, ut volutpat elit efficitur sed. Fusce arcu risus, fringilla et ante in, congue interdum sem. Sed sagittis diam eget libero tempus, ac placerat est placerat. Curabitur vel molestie est. Proin sapien ante, eleifend id dictum in, porttitor quis nunc.
+
+:: aurius-pfp [noreturn]
+<div class="profile-pick-cont">
+    <span class="profile-nav">\
+            <<link "you." "profile">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "ilya." "ilya-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "vira." "vira-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "<span class='profile-selected'>aurius.</span>" "aurius-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "rhian." "rhian-pfp">><</link>>
+    </span>
+</div>
+<div class="sushi"><span>protect & serve</span></div>
+
+:: rhian-pfp [noreturn]
+<div class="profile-pick-cont">
+    <span class="profile-nav">\
+            <<link "you." "profile">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "ilya." "ilya-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "vira." "vira-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "aurius." "aurius-pfp">><</link>>
+    </span>
+    <span class="profile-nav">\
+            <<link "<span class='profile-selected'>rhian.</span>" "rhian-pfp">><</link>>
+    </span>
+</div>
+<div class="sushi"><span>what a killer</span></div>
