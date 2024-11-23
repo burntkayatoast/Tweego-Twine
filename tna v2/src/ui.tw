@@ -1,0 +1,53 @@
+:: StoryInterface
+<div id="header">
+<div class="title" data-passage="header-title"></div>
+    <div id="header-nav">
+        <div id="back">go back</div>
+        <div id="saves">saves</div>
+        <div id="settings">settings</div>
+        <div id="restart">restart</div>
+        <div id="archive" data-passage="link1"></div>
+        <div id="profile" data-passage="link2"></div>
+        <div id="return" data-passage="if-return-head"></div>
+    </div>
+</div>
+
+<div id="story">
+	<div id="passages"></div>
+</div>
+
+<div id="mobile-footer">
+    <span id="mobile-back">go back.</span>
+    <span id="mobile-menu" data-passage="mob-menu"></span>
+    <span id="return" data-passage="if-return"></span>
+</div>
+
+
+:: header-title
+huh? → title huh? → title 
+:: link1
+<<link "archive" "archive">><</link>>
+:: link2
+<<link "profile" "profile">><</link>>
+:: if-return
+<<if tags().contains('noreturn')>><<link "return." $return>><</link>><</if>>
+:: if-return-head
+<<if tags().contains('noreturn')>><<link "return" $return>><</link>><</if>>
+
+:: mob-menu [noreturn]
+<<link '<span id="mobile-menu">navigation.</span>'>>
+    <<dialog "menu.">>
+        <div id="mobile-nav-cont">
+            <<link "saves">><<run UI.saves()>><</link>>
+            <<link "settings">><<run UI.settings()>><</link>>
+            <<link "restart">><<run UI.restart()>><</link>>
+            <<link "archive" "archive">><<run Dialog.close()>><</link>>
+            <<link "profile" "profile">><<run Dialog.close()>><</link>>
+        </div>
+    <</dialog>>
+
+<</link>>
+
+:: footer-var
+$cur_chapter.
+<span id="footer-chapter" data-passage="footer-var"></span>

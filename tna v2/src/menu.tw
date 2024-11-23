@@ -1,0 +1,17 @@
+:: startMenu 
+<div class="center-text">
+    The earth is round. The earth says hello. I'm tired and want an burrito.
+    Someone get me some strawberries. I want food man. Or am I just bored? Eugh whatevs.
+
+    <<link "<div class='next'>go to next page</div>" "next page">><</link>>
+</div>
+:: next page 
+<div class="center-text">
+    you suck loser lol
+
+    <<link "<div class='next'>continue</div>" "next page 2">><</link>>
+</div>
+:: next page 2
+<div class="center-text">
+    this is the end.
+</div> 
