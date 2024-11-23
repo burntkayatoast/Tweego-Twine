@@ -32,31 +32,7 @@
 <div class="bunga-items">\
 <div class="bunga-title">combat</div>
 <<nobr>>
-<<if $mainskill is "combat">>
-        You've always excelled in combat so it's not wonder that this is your best skill. There's almost no weapon on earth that you aren't able to handle with ease.
-<<else>>
-        You're a fighter. Always have been. Sometimes you'd fight fair, but there's no harm in asking for a little help from the Shadows when you just need to end things quickly. 
-<</if>>
-<</nobr>>
-</div>
-<div class="bunga-items">\
-<div class="bunga-title">knowledge</div>
-<<nobr>>
-<<if $mainskill is "knowledge">>\
-You are knowledgeable in many things, often having answers for questions most do not. And if you do not have the answer? You will find it. Your ability to absorb information is strange, yet useful.
-<<else>>
-Learning has always been part of your curriculum. There are things you know that one should not. You can figure things out if you put your mind to it, but if you choose not to, The Horror often shares his knowledge with you.
-<</if>>
-<</nobr>>
-</div>
-<div class="bunga-items">\
-<div class="bunga-title">perception</div>
-<<nobr>>
-<<if $mainskill is "perception">>\
-You see things most do not. Every movement, every twitch of a hand. You see it all. Notice it all. And due to your already enhanced abilites, your senses have only heightened beyond normal rates.
-<<else>>
-Due to your enhanced abilites, your senses are better than most. You often notice things one would not normally see. But the few things you do not perceive? The Horror in your mind helps you.
-<</if>>
+
 <</nobr>>
 
 :: ilya-pfp [noreturn]
