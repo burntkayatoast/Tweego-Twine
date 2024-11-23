@@ -1,0 +1,40 @@
+:: Widget [widget]
+<<widget "are">><<switch $mcplural>><<case true>>are<<case false>>is<</switch>><</widget>>
+<<widget "re">><<switch $mcplural>><<case true>>'re<<case false>>'s<</switch>><</widget>>
+<<widget "were">><<switch $mcplural>><<case true>>were<<case false>>was<</switch>><</widget>>
+<<widget "s">><<switch $mcplural>><<case true>><<case false>>s<</switch>><</widget>>
+<<widget "es">><<switch $mcplural>><<case true>><<case false>>es<</switch>><</widget>>
+<<widget "re">><<switch $mcplural>><<case true>>re<<case false>>s<</switch>><</widget>>
+<<widget "ve">><<switch $mcplural>><<case true>>ve<<case false>>s<</switch>><</widget>>
+<<widget "self">><<switch $mcplural>><<case true>>self<<case false>>self<</switch>><</widget>>
+
+<<widget "arei">><<switch $iplural>><<case true>>are<<case false>>is<</switch>><</widget>>
+<<widget "rei">><<switch $iplural>><<case true>>re<<case false>>s<</switch>><</widget>>
+<<widget "iwere">><<switch $iplural>><<case true>>were<<case false>>was<</switch>><</widget>>
+<<widget "si">><<switch $iplural>><<case true>><<case false>>s<</switch>><</widget>>
+<<widget "esi">><<switch $iplural>><<case true>><<case false>>es<</switch>><</widget>>
+<<widget "vei">><<switch $iplural>><<case true>>ve<<case false>>s<</switch>><</widget>>
+<<widget "selfi">><<switch $iplural>><<case true>>self<<case false>>self<</switch>><</widget>>
+
+<<widget "arer">><<switch $rplural>><<case true>>are<<case false>>is<</switch>><</widget>>
+<<widget "rer">><<switch $rplural>><<case true>>re<<case false>>s<</switch>><</widget>>
+<<widget "rwere">><<switch $rplural>><<case true>>were<<case false>>was<</switch>><</widget>>
+<<widget "sr">><<switch $rplural>><<case true>><<case false>>s<</switch>><</widget>>
+<<widget "esr">><<switch $rplural>><<case true>><<case false>>es<</switch>><</widget>>
+<<widget "ver">><<switch $rplural>><<case true>>ve<<case false>>s<</switch>><</widget>>
+<<widget "selfr">><<switch $iplural>><<case true>>self<<case false>>self<</switch>><</widget>>
+
+<<widget "They">><<=  $they.toUpperFirst()>><</widget>>
+<<widget "Them">><<=  $them.toUpperFirst()>><</widget>>
+<<widget "Their">><<=  $their.toUpperFirst()>><</widget>>
+<<widget "Theirs">><<=  $theirs.toUpperFirst()>><</widget>>
+
+<<widget "rThey">><<= $rthey.toUpperFirst()>><</widget>>
+<<widget "rThem">><<= $rthem.toUpperFirst()>><</widget>>
+<<widget "rTheir">><<= $rtheir.toUpperFirst()>><</widget>>
+<<widget "rTheirs">><<= $rtheirs.toUpperFirst()>><</widget>>
+
+<<widget "iThey">><<= $ithey.toUpperFirst()>><</widget>>
+<<widget "iThem">><<= $ithem.toUpperFirst()>><</widget>>
+<<widget "iTheir">><<= $itheir.toUpperFirst()>><</widget>>
+<<widget "iTheirs">><<= $itheirs.toUpperFirst()>><</widget>>
