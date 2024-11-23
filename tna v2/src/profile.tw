@@ -17,23 +17,62 @@
     </span>
 </div>
 <div class="sushi"><span>who are you?</span></div>\
-<<if $act1 is true>>
-        <div class="center-text">
-        You are a //Shadow//. 
+<div class="player-container">\
+        <div class="player-info">\
+                ''Name'': John doe
+                ''Age'': 27
+                ''Residence'': Blackhaven
 
-        /* There is something deeply wrong with you.
-        Your memories are disordered; your mind fragile like glass. 
-        There's a voice in your head, but it doesn't belong to you. 
-        How much more can you take before the pieces are too small to put back together? */
+                ''Notable Features'':
+                        beauty mark, raven tattoo.
         </div>\
-<</if>>
-<div class="divider"></div>
-<div id="bungatime">\
-<div class="bunga-items">\
-<div class="bunga-title">combat</div>
-<<nobr>>
+        <div class="player-about">\
+                Act 1: You are a Shadow. A demon in the stories parents tell their children at night. There are things you can't remember; faces that you don't recognise. Your memories are in fragments. Have been since you were young. There is nothing on this earth that will stop you from finding the answers that you seek.   
 
-<</nobr>>
+                Someone close to you betrayed you. $iThey'<<vei>> taken something valuable. Something that your people need. Now you hunt $ithem as they hunted you; lie as $ithey'<<vei>> hunted you.    
+        </div>\
+</div>\
+<div class="divider"></div>\
+<div class="bunga-items">\
+        <div class="bunga-item">\
+        <div class="bunga-title">Combat</div>\
+                <p>\
+                <<if $mainskill is "combat">>
+                        You're good at combat. Swords, blades, guns and all the likes. There hasn't been one weapon on earth that you haven't been able to pick up with ease. Even without a weapon, you're still a force to be reckoned with. It's what makes you so terrifying. That, and also the shadows that you can bend to your will.
+                <<else>>
+                        You're good at combat. Have been since you first picked up a weapon. Even without a weapon, you're good. But in times where you just can't feel the need to fight longer than you have to, there's a quiet little voice in your head that tells you what you need to do to end things quickly.
+                <</if>>
+                </p>\
+        </div>
+        <div class="bunga-item">\
+        <div class="bunga-title">Knowledge</div>\
+                <p>\
+                <<if $mainskill is "knowledge">>
+                        Knowledge has always been your advantage. You've always been able to pick pieces of information you've learned and add it to your advantage. Because of this, you rarely ever feel the need to get into a fight to get your way. Knowledge is power after all.
+                <<else>>
+                        You knowledgable in a great deal of things, but not everything. There are some things out there that you won't understand no matter how hard you try to. But when the time comes and you have to face those things, the voice in your head will offer some helpful insights.
+                <</if>>
+                </p>\
+        </div>
+        <div class="bunga-item">\
+        <div class="bunga-title">Guile</div>\
+                <p>\
+                <<if $mainskill is "Guile">>
+                        You've got a silver tongue and you know it. It's easy to turn people against each other with a careful and well placed whisper. In times where your other skills fail you, you know very well that your words can get you out of a complicated situation. Mostly.
+                <<else>>
+                        You're aren't the worst with words, but you aren't the best either. You much prefer letting your actions dictate things rather than wasting your breath. However, in times where you do need a well placed word or two, the voice in your head has a few words to say.
+                <</if>>
+                </p>\
+        </div>
+</div>
+
+
+
+
+
+
+
+
 
 :: ilya-pfp [noreturn]
 <div class="profile-pick-cont">
