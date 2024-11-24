@@ -3,3 +3,15 @@ sugarcube-2:
     dialog:
       name: dialog
       container: true
+    vei:
+      name: vei
+    iThey:
+      name: iThey
+    iTheir:
+      name: iTheir
+    ver:
+      name: ver
+    rThey:
+      name: rThey
+    sr:
+      name: sr
