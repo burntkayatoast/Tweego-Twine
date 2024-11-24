@@ -1,4 +1,5 @@
 :: profile [noreturn]
+<style>#passages::-webkit-scrollbar{display:none}</style>
 <div class="profile-pick-cont">
     <span class="profile-nav">\
             <<link "<span class='profile-selected'>you.</span>" "profile">><</link>>
@@ -16,20 +17,74 @@
             <<link "rhian." "rhian-pfp">><</link>>
     </span>
 </div>
-<div class="sushi"><span>who are you?</span></div>\
+<div class="sushi"><span>shadows shadows shadows</span></div>\
 <div class="player-container">\
         <div class="player-info">\
-                ''Name'': John doe
+                ''Name'': $name $surname
                 ''Age'': 27
                 ''Residence'': Blackhaven
 
                 ''Notable Features'':
-                        beauty mark, raven tattoo.
+                        You possess a $height stature, your skin the colour of $skin with $hair_len $hair_type $hair_colour hair. You have $eyes eyes that have grown duller over the years. 
+
+                <<nobr>>
+                        <<if $scars is true>>
+                                You are marred with scars and have:
+                                <<if $eyescar is true>>
+                                        A scar across the eye. 
+                                <</if>>
+                                <<if $browscar is true>>
+                                        A scar across your brow. 
+                                <</if>>
+                                <<if $cheekscar is true>>
+                                        A scar along your cheek. 
+                                <</if>>
+                                <<if $neckscar is true>>
+                                        A scar running by the side of your neck. 
+                                <</if>>
+                                <<if $backscars is true>>
+                                        A litter of scars decorating your back. 
+                                <</if>>
+                        <</if>>
+                        <<if $tattoos is true>>\
+                                <p>
+                                You've turned your body into a canvas, designing it with:
+                                <<if $sacrificetat is true>>
+                                        A tattoo of the word "sacrificial". 
+                                <</if>>
+                                <<if $serpenttat is true>>
+                                        A tattoo of a serpent.
+                                <</if>>
+                                <<if $raventat is true>>
+                                        A tattoo of a raven. 
+                                <</if>>
+                                <<if $stagtat is true>>
+                                        A tattoo of a stag. 
+                                <</if>>
+                                <<if $wolftat is true>>
+                                        A tattoo of a wolf. 
+                                <</if>>
+                                </p>
+                        <</if>>
+                        <</nobr>>\
         </div>\
         <div class="player-about">\
-                Act 1: You are a Shadow. A demon in the stories parents tell their children at night. There are things you can't remember; faces that you don't recognise. Your memories are in fragments. Have been since you were young. There is nothing on this earth that will stop you from finding the answers that you seek.   
+                ''Your Jouney...''
+                ''Act 1:'' You are a Shadow. A demon in the stories parents tell their children at night. There are things you can't remember; faces that you don't recognise. Your memories are in fragments. Have been since you were young. There is nothing on this earth that will stop you from finding the answers that you seek.   
 
-                Someone close to you betrayed you. $iThey'<<vei>> taken something valuable. Something that your people need. Now you hunt $ithem as they hunted you; lie as $ithey'<<vei>> hunted you.    
+                Someone close to you betrayed you. <<iThey>>'<<vei>> taken something valuable. Something that the people you work for need. 
+
+                <<if $act2 is true>>\
+                        ...
+                <<else>>\
+                        You haven't reached this part just yet...
+                <</if>>\
+
+                <<if $act3 is true>>\
+                        ...
+                <<else>>\
+                        You haven't reached this part just yet...
+                <</if>>\
         </div>\
 </div>\
 <div class="divider"></div>\
@@ -38,42 +93,33 @@
         <div class="bunga-title">Combat</div>\
                 <p>\
                 <<if $mainskill is "combat">>
-                        You're good at combat. Swords, blades, guns and all the likes. There hasn't been one weapon on earth that you haven't been able to pick up with ease. Even without a weapon, you're still a force to be reckoned with. It's what makes you so terrifying. That, and also the shadows that you can bend to your will.
+                        You're skilled in combat and in the use of almost every weapon that exists on the earth. Be it swords, blades or guns, there isn't a weapon out there where you haven't been able to pick up with ease, making you a force to be reckoned with. Not to mention the shadows that you can bend to your will. 
                 <<else>>
-                        You're good at combat. Have been since you first picked up a weapon. Even without a weapon, you're good. But in times where you just can't feel the need to fight longer than you have to, there's a quiet little voice in your head that tells you what you need to do to end things quickly.
+                        You're prodicient in combat and have been since you first picked up a weapon. Even without one, you're still a formiddable opponent. But in times where you don't feel the urge to fight any longer, there's a quiet voice in your head that tells you what you need to do to end things quickly. 
                 <</if>>
                 </p>\
-        </div>
+        </div>\
         <div class="bunga-item">\
         <div class="bunga-title">Knowledge</div>\
                 <p>\
                 <<if $mainskill is "knowledge">>
-                        Knowledge has always been your advantage. You've always been able to pick pieces of information you've learned and add it to your advantage. Because of this, you rarely ever feel the need to get into a fight to get your way. Knowledge is power after all.
+                        Your knowledge of things has always been your greatest advantage. You excel at gathering information and unitilizing it to your advantage. With that being said, it's not entirely difficult you to find a way to end a fight quickly. After all, knowledge is power. 
                 <<else>>
-                        You knowledgable in a great deal of things, but not everything. There are some things out there that you won't understand no matter how hard you try to. But when the time comes and you have to face those things, the voice in your head will offer some helpful insights.
+                        You're well versed in a great deal of subjects, but no one can know everything. So in the times where you find yourself at a loss with the unknown, there's a voice in your head that provides you with some words of wisdom and guidance. 
                 <</if>>
                 </p>\
-        </div>
+        </div>\
         <div class="bunga-item">\
         <div class="bunga-title">Guile</div>\
                 <p>\
                 <<if $mainskill is "Guile">>
-                        You've got a silver tongue and you know it. It's easy to turn people against each other with a careful and well placed whisper. In times where your other skills fail you, you know very well that your words can get you out of a complicated situation. Mostly.
+                        Your words are your greatest weapon, wielded with cunning precision. With a well-timed whisper, you can turn people against one another and escape even the trickiest situations when your other skills fall short. Your sharp wit is your secret advantage. Mostly.
                 <<else>>
-                        You're aren't the worst with words, but you aren't the best either. You much prefer letting your actions dictate things rather than wasting your breath. However, in times where you do need a well placed word or two, the voice in your head has a few words to say.
+                        You're not entirely unskilled with words, but they're not your strongest suit either. You prefer actions over empty speech. Yet, when the moment demands it, that inner voice of yours has more than a few words to say that might be of some help.
                 <</if>>
                 </p>\
         </div>
 </div>
-
-
-
-
-
-
-
-
-
 :: ilya-pfp [noreturn]
 <div class="profile-pick-cont">
     <span class="profile-nav">\
@@ -92,29 +138,17 @@
             <<link "rhian." "rhian-pfp">><</link>>
     </span>
 </div>
-<div class="sushi"><span>Who are you?</span></div>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor elit vel est facilisis, nec pulvinar urna eleifend. Mauris a risus a justo convallis tincidunt eu non erat. Mauris ac mi mi. Dyouc nec vulputate felis. Morbi blandit congue metus quis molestie. In faucibus interdum augue ut fermentum. Etiam accumsan ex bibendum varius faucibus. Etiam tempor varius erat, quis pulvinar ante rutrum vitae. Dyouc id mauris eget ante pulvinar varius vitae at velit. Fusce finibus, nulla vel efficitur posuere, sapien tellus malesuada nisi, id gravida justo est mattis neque. Morbi posuere justo eget nibh posuere consectetur.
-
-Pellentesque mattis risus quis tristique placerat. Dyouc id rutrum massa. Integer condimentum ligula in lacus fermentum ultrices. Aenean lacinia, nulla nec consectetur posuere, sapien sem vehicula dui, et suscipit turpis enim sed tortor. Pellentesque rutrum massa et ligula tincidunt, rutrum aliquam elit faucibus. Nulla rutrum quam mi, sed laoreet eros placerat vitae. Vivamus tincidunt, odio at accumsan pulvinar, nibh eros tempor diam, ut ultrices tortor lacus at urna. Dyouc elementum augue enim, nec eleifend nunc interdum et. Nullam accumsan nec mauris ut lacinia.
-
-Sed erat lorem, mollis nec bibendum et, imperdiet vitae nunc. Aliquam eleifend nibh at tortor tristique fermentum. Nullam id elit leo. Sed blandit nisl tortor, eget egestas orci pellentesque sit amet. Etiam quis tortor tellus. Integer eleifend suscipit eleifend. Maecenas maximus fermentum erat in tempus. Praesent vel dui nec metus tincidunt malesuada.
-
-Aliquam turpis odio, vulputate sed dui cursus, bibendum hendrerit justo. Nulla non placerat nisl. Proin in venenatis urna. Mauris lobortis enim ac urna pharetra, eget volutpat sem fringilla. Duis sed sem rhoncus, finibus lorem nec, pharetra ante. Aenean sed faucibus nulla, ut dignissim sapien. Suspendisse est nisi, sodales eu nulla iaculis, convallis egestas augue. Morbi quis vehicula felis, a consectetur lacus.
-
-Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. Fusce suscipit velit risus. Ut rhoncus, purus vehicula suscipit porta, dui metus venenatis erat, vitae elementum orci enim et tellus. Sed gravida vehicula tincidunt. Curabitur hendrerit rhoncus est in dictum. Morbi tristique leo nisi, ut volutpat elit efficitur sed. Fusce arcu risus, fringilla et ante in, congue interdum sem. Sed sagittis diam eget libero tempus, ac placerat est placerat. Curabitur vel molestie est. Proin sapien ante, eleifend id dictum in, porttitor quis nunc.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor elit vel est facilisis, nec pulvinar urna eleifend. Mauris a risus a justo convallis tincidunt eu non erat. Mauris ac mi mi. Dyouc nec vulputate felis. Morbi blandit congue metus quis molestie. In faucibus interdum augue ut fermentum. Etiam accumsan ex bibendum varius faucibus. Etiam tempor varius erat, quis pulvinar ante rutrum vitae. Dyouc id mauris eget ante pulvinar varius vitae at velit. Fusce finibus, nulla vel efficitur posuere, sapien tellus malesuada nisi, id gravida justo est mattis neque. Morbi posuere justo eget nibh posuere consectetur.
-
-Pellentesque mattis risus quis tristique placerat. Dyouc id rutrum massa. Integer condimentum ligula in lacus fermentum ultrices. Aenean lacinia, nulla nec consectetur posuere, sapien sem vehicula dui, et suscipit turpis enim sed tortor. Pellentesque rutrum massa et ligula tincidunt, rutrum aliquam elit faucibus. Nulla rutrum quam mi, sed laoreet eros placerat vitae. Vivamus tincidunt, odio at accumsan pulvinar, nibh eros tempor diam, ut ultrices tortor lacus at urna. Dyouc elementum augue enim, nec eleifend nunc interdum et. Nullam accumsan nec mauris ut lacinia.
-
-Sed erat lorem, mollis nec bibendum et, imperdiet vitae nunc. Aliquam eleifend nibh at tortor tristique fermentum. Nullam id elit leo. Sed blandit nisl tortor, eget egestas orci pellentesque sit amet. Etiam quis tortor tellus. Integer eleifend suscipit eleifend. Maecenas maximus fermentum erat in tempus. Praesent vel dui nec metus tincidunt malesuada.
-
-Aliquam turpis odio, vulputate sed dui cursus, bibendum hendrerit justo. Nulla non placerat nisl. Proin in venenatis urna. Mauris lobortis enim ac urna pharetra, eget volutpat sem fringilla. Duis sed sem rhoncus, finibus lorem nec, pharetra ante. Aenean sed faucibus nulla, ut dignissim sapien. Suspendisse est nisi, sodales eu nulla iaculis, convallis egestas augue. Morbi quis vehicula felis, a consectetur lacus.
-
-Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. Fusce suscipit velit risus. Ut rhoncus, purus vehicula suscipit porta, dui metus venenatis erat, vitae elementum orci enim et tellus. Sed gravida vehicula tincidunt. Curabitur hendrerit rhoncus est in dictum. Morbi tristique leo nisi, ut volutpat elit efficitur sed. Fusce arcu risus, fringilla et ante in, congue interdum sem. Sed sagittis diam eget libero tempus, ac placerat est placerat. Curabitur vel molestie est. Proin sapien ante, eleifend id dictum in, porttitor quis nunc.
-
-
-
+<div class="sushi"><span>the rot</span></div>
+<<if $met_ilya is true>>
+        ''Ilya Roson.'' That name has become quite memorable now. Just as much as $itheir features, having been burned into your mind. <<iThey>> ha<<vei>> skin like porcelain, marred only with scars by the palms of $itheir hands. <<iTheir>> hair reaches just past $itheir shoulders in gentle waves with the colour of moondust and $itheir grey eyes possess a raging storm behind them.
+        <<if $ilya_feelings is "hate">>
+                Friend now foe. Has everything $ithey'<<vei>> said and done all a trick? 
+        <</if>>
+<<else>>
+        <div class="center-text">
+        You have yet to meet $ithem.
+        </div>
+<</if>>
 
 :: vira-pfp [noreturn] 
 <div class="profile-pick-cont">
@@ -134,26 +168,17 @@ Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. 
             <<link "rhian." "rhian-pfp">><</link>>
     </span>
 </div>
-<div class="sushi"><span>bang bang</span></div>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor elit vel est facilisis, nec pulvinar urna eleifend. Mauris a risus a justo convallis tincidunt eu non erat. Mauris ac mi mi. Dyouc nec vulputate felis. Morbi blandit congue metus quis molestie. In faucibus interdum augue ut fermentum. Etiam accumsan ex bibendum varius faucibus. Etiam tempor varius erat, quis pulvinar ante rutrum vitae. Dyouc id mauris eget ante pulvinar varius vitae at velit. Fusce finibus, nulla vel efficitur posuere, sapien tellus malesuada nisi, id gravida justo est mattis neque. Morbi posuere justo eget nibh posuere consectetur.
-
-Pellentesque mattis risus quis tristique placerat. Dyouc id rutrum massa. Integer condimentum ligula in lacus fermentum ultrices. Aenean lacinia, nulla nec consectetur posuere, sapien sem vehicula dui, et suscipit turpis enim sed tortor. Pellentesque rutrum massa et ligula tincidunt, rutrum aliquam elit faucibus. Nulla rutrum quam mi, sed laoreet eros placerat vitae. Vivamus tincidunt, odio at accumsan pulvinar, nibh eros tempor diam, ut ultrices tortor lacus at urna. Dyouc elementum augue enim, nec eleifend nunc interdum et. Nullam accumsan nec mauris ut lacinia.
-
-Sed erat lorem, mollis nec bibendum et, imperdiet vitae nunc. Aliquam eleifend nibh at tortor tristique fermentum. Nullam id elit leo. Sed blandit nisl tortor, eget egestas orci pellentesque sit amet. Etiam quis tortor tellus. Integer eleifend suscipit eleifend. Maecenas maximus fermentum erat in tempus. Praesent vel dui nec metus tincidunt malesuada.
-
-Aliquam turpis odio, vulputate sed dui cursus, bibendum hendrerit justo. Nulla non placerat nisl. Proin in venenatis urna. Mauris lobortis enim ac urna pharetra, eget volutpat sem fringilla. Duis sed sem rhoncus, finibus lorem nec, pharetra ante. Aenean sed faucibus nulla, ut dignissim sapien. Suspendisse est nisi, sodales eu nulla iaculis, convallis egestas augue. Morbi quis vehicula felis, a consectetur lacus.
-
-Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. Fusce suscipit velit risus. Ut rhoncus, purus vehicula suscipit porta, dui metus venenatis erat, vitae elementum orci enim et tellus. Sed gravida vehicula tincidunt. Curabitur hendrerit rhoncus est in dictum. Morbi tristique leo nisi, ut volutpat elit efficitur sed. Fusce arcu risus, fringilla et ante in, congue interdum sem. Sed sagittis diam eget libero tempus, ac placerat est placerat. Curabitur vel molestie est. Proin sapien ante, eleifend id dictum in, porttitor quis nunc.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor elit vel est facilisis, nec pulvinar urna eleifend. Mauris a risus a justo convallis tincidunt eu non erat. Mauris ac mi mi. Dyouc nec vulputate felis. Morbi blandit congue metus quis molestie. In faucibus interdum augue ut fermentum. Etiam accumsan ex bibendum varius faucibus. Etiam tempor varius erat, quis pulvinar ante rutrum vitae. Dyouc id mauris eget ante pulvinar varius vitae at velit. Fusce finibus, nulla vel efficitur posuere, sapien tellus malesuada nisi, id gravida justo est mattis neque. Morbi posuere justo eget nibh posuere consectetur.
-
-Pellentesque mattis risus quis tristique placerat. Dyouc id rutrum massa. Integer condimentum ligula in lacus fermentum ultrices. Aenean lacinia, nulla nec consectetur posuere, sapien sem vehicula dui, et suscipit turpis enim sed tortor. Pellentesque rutrum massa et ligula tincidunt, rutrum aliquam elit faucibus. Nulla rutrum quam mi, sed laoreet eros placerat vitae. Vivamus tincidunt, odio at accumsan pulvinar, nibh eros tempor diam, ut ultrices tortor lacus at urna. Dyouc elementum augue enim, nec eleifend nunc interdum et. Nullam accumsan nec mauris ut lacinia.
-
-Sed erat lorem, mollis nec bibendum et, imperdiet vitae nunc. Aliquam eleifend nibh at tortor tristique fermentum. Nullam id elit leo. Sed blandit nisl tortor, eget egestas orci pellentesque sit amet. Etiam quis tortor tellus. Integer eleifend suscipit eleifend. Maecenas maximus fermentum erat in tempus. Praesent vel dui nec metus tincidunt malesuada.
-
-Aliquam turpis odio, vulputate sed dui cursus, bibendum hendrerit justo. Nulla non placerat nisl. Proin in venenatis urna. Mauris lobortis enim ac urna pharetra, eget volutpat sem fringilla. Duis sed sem rhoncus, finibus lorem nec, pharetra ante. Aenean sed faucibus nulla, ut dignissim sapien. Suspendisse est nisi, sodales eu nulla iaculis, convallis egestas augue. Morbi quis vehicula felis, a consectetur lacus.
-
-Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. Fusce suscipit velit risus. Ut rhoncus, purus vehicula suscipit porta, dui metus venenatis erat, vitae elementum orci enim et tellus. Sed gravida vehicula tincidunt. Curabitur hendrerit rhoncus est in dictum. Morbi tristique leo nisi, ut volutpat elit efficitur sed. Fusce arcu risus, fringilla et ante in, congue interdum sem. Sed sagittis diam eget libero tempus, ac placerat est placerat. Curabitur vel molestie est. Proin sapien ante, eleifend id dictum in, porttitor quis nunc.
+<div class="sushi"><span>a devil's eye</span></div>
+<<if $met_vira is true>>
+        ''Vira Duval.'' A mysterious figure that one. You met her under innocent circumstances, but in those crystalline blue eyes of hers, there is anything but innocence. Scars peak out from just under the crook of her neck, carved into fair skin and hidden beneath long silk hair the colour of a raven's feather. And it makes you wonder: //just who is she?//
+        <<if $vira_feelings is "acquaintance">>
+                Friend now foe. Has everything $ithey'<<vei>> said and done all a trick? 
+        <</if>>
+<<else>>
+        <div class="center-text">
+        You have yet to meet her.
+        </div>
+<</if>>
 
 :: aurius-pfp [noreturn]
 <div class="profile-pick-cont">
@@ -173,8 +198,17 @@ Mauris et congue mi. Suspendisse congue turpis non lacus tincidunt scelerisque. 
             <<link "rhian." "rhian-pfp">><</link>>
     </span>
 </div>
-<div class="sushi"><span>yapper supreme</span></div>
-It's a superpower
+<div class="sushi"><span>to protect & serve</span></div>
+<<if $met_aurius is true>>
+        ''Aurius Duval.'' You can see what he is, clear as day, even without the flashy enforcer's badge that hangs from his belt. He's got the same raven hair as his sister, albeit shorter and styled back to keep it tidy. And like his sister, he possesses the same blue eyes and fair skin. The only difference between him and his sister is that he does not attempt to hide the scars that litter his skin.
+        <<if $aurius_feelings is "acquaintance">>
+                Friend now foe. Has everything $ithey'<<vei>> said and done all a trick? 
+        <</if>>
+<<else>>
+        <div class="center-text">
+        You have yet to meet him.
+        </div>
+<</if>>
 
 :: rhian-pfp [noreturn]
 <div class="profile-pick-cont">
@@ -194,4 +228,14 @@ It's a superpower
             <<link "<span class='profile-selected'>rhian.</span>" "rhian-pfp">><</link>>
     </span>
 </div>
-<div class="sushi"><span>yurrrr</span></div>
+<div class="sushi"><span>what a killer indeed</span></div>
+<<if $met_rhian is true>>
+        ''Rhian Scott.'' What is there to say about $rthem? <<rThey>>'<<ver>> a nuissance at best and a gossip at worst. <<rThey>> ha<<ver>> skin kissed by the sun, $rtheir eyes an ambered shade with hair <<if $r_gender is "female">>well past $rtheir shoulders<<else>>cut short<</if>> and the colour of a dark chestnut that shifts into a shade of red under the light, with a beauty mark sitting just under the left side of $rtheir lip.   
+        <<if $rhian_feelings is "acquaintance">>
+                The $rwoman you've had the dirty luck to meet on the rooftops that one night. 
+        <</if>>
+<<else>>
+        <div class="center-text">
+        You have yet to meet $rthem.
+        </div>
+<</if>>
