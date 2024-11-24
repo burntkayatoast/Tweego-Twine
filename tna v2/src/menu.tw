@@ -1,17 +1,238 @@
-:: startMenu 
-<div class="center-text">
-    The earth is round. The earth says hello. I'm tired and want an burrito.
-    Someone get me some strawberries. I want food man. Or am I just bored? Eugh whatevs.
-
-    <<link "<div class='next'>go to next page</div>" "next page">><</link>>
+:: startMenu [nosave]
+<style>
+#header{display:none}
+#mobile-footer{display:none}
+</style>
+<h1 class="neon" data-text="U">THE <span class="flicker-slow">NIGHT</span> Abridged</h1><div class="sushi"><span>your truth is their lie</span></div>
+<div id="killbill-cont">
+    <<if Save.autosave.ok() and Save.autosave.has()>>\
+    <<link '<div class="killbill">resume game</div>'>><<script>>Save.autosave.load()<</script>><</link>><</if>>
+    <<link '<div class="killbill">new game</div>' 'startGame'>><</link>>
+    <<link '<div class="killbill">load game</div>'>><<run UI.saves()>><</link>>
 </div>
-:: next page 
-<div class="center-text">
-    you suck loser lol
+:: startGame
+<<set $profile_unlocked to true>>
+<div class="sushi"><span>ro preferences</span></div>
+Ilya?
+<<radiobutton "$i_gender" "female" checked>> Female
+<<radiobutton "$i_gender" "male" >> Male
+<<radiobutton "$i_gender" "nb">> Non-binary
 
-    <<link "<div class='next'>continue</div>" "next page 2">><</link>>
+Rhian?
+<<radiobutton "$r_gender" "female" checked>> Female
+<<radiobutton "$r_gender" "male" >> Male
+<<radiobutton "$r_gender" "nb">> Non-binary
+
+<<link "<div class='next'>continue to character customisation</div>" "player_customisation">><</link>>
+:: player_customisation
+<<nobr>>
+    <<set $met_ilya to true>>
+    <<set $met_vira to true>>
+    <<set $met_aurius to true>>
+    <<set $met_rhian to true>>
+
+    <<if$i_gender is "female">>
+        <<set $ithey to "she">>
+        <<set $ithem to "her">>
+        <<set $itheir to "her">>
+        <<set $itheirs to "hers">>
+        <<set $iwoman to "woman">>
+    <<elseif$i_gender is "male">>
+        <<set $ithey to "he">>
+        <<set $ithem to "him">>
+        <<set $itheir to "his">>
+        <<set $itheirs to "his">>
+        <<set $iwoman to "man">>
+    <<else>>
+        <<set $iplural to true>>
+        <<set $ithey to "they">>
+        <<set $ithem to "them">>
+        <<set $itheir to "their">>
+        <<set $itheirs to "theirs">>
+        <<set $iwoman to "person">>
+    <</if>>
+
+    <<if$r_gender is "female">>
+        <<set $rthey to "she">>
+        <<set $rthem to "her">>
+        <<set $rtheir to "her">>
+        <<set $rtheirs to "hers">>
+        <<set $rwoman to "woman">>
+        <<set $rgirl to "girl">>
+    <<elseif$r_gender is "male">>
+        <<set $rthey to "he">>
+        <<set $rthem to "him">>
+        <<set $rtheir to "his">>
+        <<set $rtheirs to "his">>
+        <<set $rwoman to "man">>
+    <<else>>
+        <<set $rplural to true>>
+        <<set $rthey to "they">>
+        <<set $rthem to "them">>
+        <<set $rtheir to "their">>
+        <<set $rtheirs to "theirs">>
+        <<set $rwoman to "person">>
+    <</if>>
+<</nobr>>
+<div class="sushi"><span>this is you</span></div>
+What are your pronouns? 
+<<if$set_pronouns is false>>\ 
+<<link '<div class="accent">SET HERE.</div>'>>
+    <<dialog 'Set Pronouns '>>\
+    <div id="dialog-container">\
+      <span id="autofill">\
+      <div class="info-icon"><span>Type in lowercase.</span></div>
+      SUBJECTIVE: 
+      <<textbox "$they" "they">><br>
+      OBJECTIVE: 
+      <<textbox "$them" "them">><br>
+      DETERMINER: 
+      <<textbox "$their" "their">><br>
+      POSSESSIVE: 
+      <<textbox "$theirs" "theirs">><br>
+      HONORIFIC:
+      <<textbox "$ms" "Mx">><br>
+      Is this a plural pronoun? <<listbox "$mcplural">>
+      <<option "No" false>>
+      <<option "Yes" true selected>><</listbox>>
+      </span>
+      <div class="border"></div>
+      <div class="presets">Presets: </div><<link '<span class="preset-choice">he/him </span>'>>
+      <<set$woman to "man">>\
+      <<set$they = "he">>\
+      <<set$them = "him">>\
+      <<set$their = "his">>\
+      <<set$theirs = "his">>\
+      <<set$ms = "Mr">>\ 
+      <<set$mcplural = false>>\
+      <<replace #autofill>>\
+      <div class="info-icon"><span>Type in lowercase.</span></div>
+      SUBJECTIVE:
+      <<textbox "$they" "he">><br>
+      OBJECTIVE: 
+      <<textbox "$them" "him">><br>
+      DETERMINER: 
+      <<textbox "$their" "his">><br>
+      POSSESSIVE:
+      <<textbox "$theirs" "his">><br>
+      HONORIFIC:
+      <<textbox "$ms" "Mr">><br>
+      Is this a plural pronoun? <<listbox "$mcplural">>
+      <<option "No" false selected>>
+      <<option "Yes" true>><</listbox>>
+      <</replace>><</link>>  <<link '<span class="preset-choice">she/her </span>'>>
+      <<set$woman to "woman">>\
+      <<set$they = "she">>\
+      <<set$them = "her">>\
+      <<set$their = "her">>\
+      <<set$theirs = "hers">>\
+      <<set$ms = "Ms">>\ 
+      <<set$mcplural = false>>\
+      <<replace #autofill>>\
+      <div class="info-icon"><span>Type in lowercase.</span></div>
+      SUBJECTIVE:
+      <<textbox "$they" "she">><br>
+      OBJECTIVE: 
+      <<textbox "$them" "her">><br>
+      DETERMINER:
+      <<textbox "$their" "her">><br>
+      POSSESSIVE:
+      <<textbox "$theirs" "hers">><br>
+      HONORIFIC:
+      <<textbox "$ms" "Ms">><br>
+      Is this a plural pronoun? <<listbox "$mcplural">>
+      <<option "No" false selected>>
+      <<option "Yes" true>><</listbox>>
+      <</replace>><</link>> <<link '<span class="preset-choice">they/them</span>'>>
+      <<set$woman to "person">>\
+      <<set$they = "they">>\ 
+      <<set$them = "them">>\
+      <<set$their = "their">>\
+      <<set$theirs = "theirs">>\
+      <<set$ms = "Mx">>\
+      <<set$mcplural = true>>\
+      <<replace #autofill>>\
+      <div class="info-icon"><span>Type in lowercase.</span></div>
+      SUBJECTIVE:
+      <<textbox "$they" "they">><br>
+      OBJECTIVE:
+      <<textbox "$them" "them">><br>
+      DETERMINER:
+      <<textbox "$their" "their">><br>
+      POSSESSIVE: 
+      <<textbox "$theirs" "theirs">><br>
+      HONORIFIC:
+      <<textbox "$ms" "Mx">><br>
+      Is this a plural pronoun? <<listbox "$mcplural">>\
+      <<option "No" false>>\
+      <<option "Yes" true selected>><</listbox>>
+      <</replace>><</link>>
+
+    <<link '<div class="next">continue</div>' 'player_customisation'>><<run Dialog.close()>><<set$set_pronouns to true>><</link>>\
+<</dialog>>
+<</link>>
+<<else>>\
+*You use <span class="accent">$they/$them/$their/$theirs</span>
+<</if>>\
+What's your gender?
+<<radiobutton "$gender" "female" checked>> Female
+<<radiobutton "$gender" "male">> Male
+<<radiobutton "$gender" "non-binary">> Non-binary
+
+What are you usually referred to as?
+<<radiobutton "$woman" "woman" checked>> Woman
+<<radiobutton "$woman" "man">> Man
+<<radiobutton "$woman" "person">> Person
+
+<<link "<div class='next'>continue</div>" "custom 2">><</link>>
+:: custom 2
+<<if$set_pronouns is false>>
+    <div class="info-icon center-text"><span>ERROR: It seems you have forgotten to set your pronouns! please return to last page and set them.</span>
+    </div>
+<<else>>
+    <div class="sushi"><span>have you been marred?</span></div>
+    Do you have any scars?
+
+    <<radiobutton "$scars" true checked>> Yes
+    <<radiobutton "$scars" false>> No
+
+    Do you have any tattoos?
+
+    <<radiobutton "$tattoos" true checked>> Yes
+    <<radiobutton "$tattoos" false>> No
+<</if>>
+<<link "<div class='next'>continue</div>" "tatts and scars">><</link>>
+:: tatts and scars
+<<if $scars is true or $tattoos is true>>
+    <div class="sushi"><span>what have you been marked with?</span></div>
+<</if>>\
+<<if $scars is true>>\
+    What scars does you have? 
+    <<checkbox "$eyescar" false true autocheck>> across the eye
+    <<checkbox "$browscar" false true autocheck>> through your eyebrow
+    <<checkbox "$cheekscar" false true autocheck>> along your cheek
+    <<checkbox "$neckscar" false true autocheck>> On the side of your neck
+    <<checkbox "$backscars" false true autocheck>> All over your back
+<</if>>\
+<<if $tattoos is true>>\
+
+    What tattoos do you have?
+    <<checkbox "$sacrificetat" false true autocheck>> "Sacrificial"
+    <<checkbox "$serpenttat" false true autocheck>> a serpent
+    <<checkbox "$raventat" false true autocheck>> a raven
+    <<checkbox "$stagtat" false true autocheck>> a stag
+    <<checkbox "$wolftat" false true autocheck>> a wolf
+<</if>>\
+<<if $scars is true or $tattoos is true>>
+    <<link "<div class='next'>continue</div>" "start">><</link>>
+<</if>>
+<<if $scars is false and $tattoos is false>>
+    <div class="center-text">\
+    You have no scars or tattoos.
+
+    <<link "<div class='next'>continue</div>" "start">><</link>>
 </div>
-:: next page 2
-<div class="center-text">
-    this is the end.
-</div> 
+<</if>>\
+
+:: start
+this is the beginning.
