@@ -1,14 +1,9 @@
 :: Story Stylesheet [stylesheet]
 /* import fonts */
 @import url('https://fonts.cdnfonts.com/css/lovelo?styles=25962');
+@import url('https://fonts.cdnfonts.com/css/carrois-gothic');
 @import url('https://fonts.cdnfonts.com/css/futura-pt');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
-
-/* custom fonts */
-@font-face {
-    font-family: "Bebas Neue Cyrillic";
-    src: url("fonts/BebasNeueCyrillic.woff")format("woff"), url("fonts/BebasNeueCyrillic.woff2")format("woff2"), url("fonts/BebasNeueCyrillic.ttf")format("ttf"), url("fonts/BebasNeueCyrillic.otf")format("otf");
-}
 @font-face {
   font-family: "Open Dyslexic";
   src: url("https://dl.dropbox.com/s/z61rc6kecqzn2pm/OpenDyslexic-Regular.woff2")format("woff2"),
@@ -17,10 +12,11 @@
 }
 
 :root {
-    --bebas:'Bebas Neue Cyrillic', sans-serif;
+    /* --bebas:'Bebas Neue Cyrillic', sans-serif; */
     --lovelo:'Lovelo', sans-serif;
     --futura:'Futura PT', sans-serif;
     --oldTT:'Old Standard TT', serif;
+    --carrois:'Carrois Gothic SC', sans-serif;
     --OD: 'Open Dyslexic', sans-serif;
 
     --bg: #121212;
@@ -204,13 +200,13 @@ a:hover {
 }
 #mobile-footer {
     display:none; 
-    height:10vh;
+    height:7vh;
     background-color:var(--bg2);
     width:100vw;
     position:fixed;
     bottom:0;
     left:0;
-    font-size:.9em;
+    font-size:1em;
     justify-content: center;
     align-items:center;
 }
@@ -236,6 +232,7 @@ a:hover {
     color:var(--gold);
     transition:.4s ease-in-out;
     font-weight:bold;
+    font-size:102%;
 }
 #mobile-menu a:hover {color:var(--gold2);}
 .light #mobile-menu a {color:var(--red2);}
@@ -250,7 +247,6 @@ a:hover {
 #mobile-nav-cont a {
     text-decoration: none;
     color: var(--purple);
-    font-size:1em;
 }
 #mobile-nav-cont a:hover {
     color: var(--gold);
@@ -385,6 +381,13 @@ a:hover {
     border: 1px solid var(--lightbg);
 }
 
+.purple-text {color:var(--purple);}
+.center-text {text-align: center;}
+.justify-text {
+    text-align: justify;
+    letter-spacing:.5px;
+    line-height:1.5em;
+}
 /* -------------------------
         next and return
 ---------------------------*/
@@ -436,7 +439,6 @@ a:hover {
   opacity:1;
 }
 
-
 .divider {
     width: 100%; 
     height: 1.55px; 
@@ -447,7 +449,7 @@ a:hover {
 .light .divider {background: linear-gradient(to right, var(--lightbg), var(--red), var(--lightbg));}
 
 
-.center-text {text-align: center;}
+
 
 /* -----------------
     line text line
@@ -459,7 +461,6 @@ a:hover {
     font-family:var(--futura);
     letter-spacing:1px;
     font-size:1.2em;
-    font-style:italic;
 }
 .sushi:before, .sushi:after {
     content: '';
@@ -469,6 +470,107 @@ a:hover {
 .sushi:not(:empty):before {margin-right: .5em;}
 .sushi:not(:empty):after {margin-left: .5em;}
 .light .sushi:before, .light .sushi:after {border-bottom: 1.5px solid var(--red);}
+
+
+/*---------------------
+    archive btns
+---------------------*/
+.archive-entry {
+    text-transform: uppercase;
+    font-family: var(--lovelo);
+    letter-spacing: 2px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.archive-title {
+    font-family:var(--lovelo);
+    letter-spacing:3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1em;
+    font-size: 150%;
+}
+
+.archive-button {
+    flex: 1 1 calc(33.33% - 10px); /* Default: 3 buttons per row */
+    width: 30%; 
+    padding: 1em; 
+    font-size: 16px;  
+    background-color: var(--purple);  
+    color: var(--bg); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.4s ease-in-out;
+}
+.archive-button a {
+    color:var(--bg);
+    letter-spacing:4px;
+}
+.archive-button:hover {
+    background-color: var(--gold3);
+}
+.archive-topic {
+    font-family: var(--carrois);
+    font-size: 95%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* start menu */
@@ -500,20 +602,18 @@ a:hover {
   width: fit-content;
 }
 .killbill {
-  border:1px solid var(--text);
+  border:1px solid var(--purple2);
   border-radius: 3px;
-  color: var(--text);
-  padding:1em 3em;
-  font-family:var(--oldTT);
-  letter-spacing:1px;
+  color: var(--purple2);
+  padding:1em 2em;
+  font-family:var(--lovelo);
+  letter-spacing:1.3px;
   transition:.4s ease-in-out;
   width:auto;
-  font-size:110%;
   text-align:center;
 }
 .killbill:hover {
   transform:scale(1.07);
-  border:1px solid var(--text);
 }
 
 .info-icon:before {
@@ -538,27 +638,41 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
+#notify {
+    position: fixed;
+    bottom: -5vh; 
+    width: 100%;
+    max-height: 0; 
+    background: var(--purple);  
+    color: var(--bg);
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0; 
+    overflow: hidden;  
+    transition: max-height 0.4s ease, bottom 0.4s ease, padding 0.4s ease; 
+}
+#notify.open {
+    bottom: 0;  
+    max-height: 5vh;  
+    padding: 2em 0; 
+}
 
 /* --------------------
         DIALOG BOX
 ----------------------*/
 #ui-dialog {
-  inset: auto !important;
-  margin: 1em;
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  margin: 1em; 
   width: auto;
+  inset: auto !important; 
 }
+#ui-dialog-body::-webkit-scrollbar {width:3px;}
 #ui-dialog-titlebar {
     background-color: var(--bg);
     border: .5px solid var(--grey);
-    border-bottom: none;
+    border-bottom:1px solid var(--grey);
     padding: 1em;
 }
 #ui-dialog-title {
@@ -592,6 +706,7 @@ a:hover {
     text-align: center;
     overflow: auto;
 }
+
 .light #ui-dialog-titlebar {
     background-color: var(--lightbg2);
     border:.5px solid var(--red2);
@@ -635,9 +750,7 @@ input, select, textarea {
     letter-spacing:2px;
     transition:.3s ease-in-out;
 }
-#ui-dialog-body button:hover {
-    color: var(--gold);
-}
+#ui-dialog-body button:hover {color: var(--gold);}
 .light input, .light select, .light textarea {color:var(--bg);}
 .light input:not(:disabled):hover, .light select:not(:disabled):hover, .light textarea:not(:disabled):hover {
   background-color: var(--gold3);
@@ -707,7 +820,9 @@ input, select, textarea {
     .neon {
         font-size:200%;
         color:var(--purple);
+        line-height:40px;
     }
+
 
     .profile-nav a {padding:0 0 5px 0;}
     #return a {
@@ -722,17 +837,16 @@ input, select, textarea {
     .light #return a:hover {color: var(--gold3);}
 
     #passages {
-        max-height:74%;
+        max-height:80%;
         width:100%;
         border:none;
         margin-top:-2em;
+        margin-bottom:-1em;
         background:transparent;
         padding: 1em 0 0 0;
     }
-
     #passages::-webkit-scrollbar {display:none;}
     #passages::-webkit-scrollbar-track {display:none;}
-
 
     #ui-dialog-body {
         line-height: 200%;
@@ -745,15 +859,19 @@ input, select, textarea {
         display: block;
         padding:10px;
         margin:20px 0 20px 0;
-        height:auto;
+        overflow-y:auto;
     }
+    .player-container::-webkit-scrollbar {
+        width: 3px;
+        margin-left: 5px;
+    }
+    .player-container::-webkit-scrollbar-thumb {display:none;}
 
     .player-about {
         width: fit-content;
         padding: 0;
+        margin-top:-20px;
     }
-    .player-about::-webkit-scrollbar {display: none;}
-
     .player-info {
         padding: 0;
         margin-bottom:20px;
