@@ -1,0 +1,483 @@
+:: archive  [noreturn]
+<<nobr>>
+<div class="archive-title">blackhaven</div>
+<div class="button-container">
+  /* ------------------------------------------------------
+  
+                      THE UNDERBELLY
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the underbelly">>
+    <<dialog "the underbelly">><div class="justify-text">
+         <span class="archive-topic">location:</span> Blackhaven, beneath city proper.
+         <br><br>
+         The Underbelly is the festering heart of Blackhaven, a sprawling labyrnth of crumbling building, rusted metal walkways and dimly lit alleys that are buried beneath the towering infrastructure of the city above. Once a hub for industry, it now serves as a refuge for the disenfranchised, the desperate and the dangerous. Its air is thick with the stench of oil, decay, unfiltered ambition and flickering neon lights piercing through the gloom.
+         <br><br>
+         Here, the law is an afterthought and power belongs to those who can take it, whether through force, cunnning or influence. 
+         <br><br>
+         The area is a haphazard fusion of collapsed factories, scavenged technology and a patchwork  of shelter stacked precariously atop one another. The deeper one ventures, the more decayed and chaotic the structures around become, as though its devouring itself.
+         <br><br>
+         Most of The Underbelly is  bathed in a sickly neon glow from hanging signs and makeshift lighting rigs. However, there are pockets of complete darkness that conceals untold dangers. 
+         <br><br>
+         <span class="archive-topic">The Underbelly</span> is a melting pot of outcasts, mercenaries, smugglers and inventors— those who have no place in Providence or even the upper reaches of Blackhaven. Here, survival comes at the expense of morality. Though many view it as a place of ruin, others see it as a land of opportunity where the ambitious and the ruthless can rise. It has become home to a number of groups and individuals, such as The Night Court, Black Dahlia and Los Alacranes. 
+    </div><</dialog>>
+  <</link>></button>
+  /* ------------------------------------------------------
+  
+                        THE HEIGHTS
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the heights">>
+    <<dialog "the heights">><div class="justify-text">
+      <span class="archive-topic">location:</span> Blackhaven, residential district.
+      <br><br>
+        The Heights is an aging residential district in Blackhaven. Though it's crumbling at the edges, this compact community is where life persists against all odds. It is a mosiac of patched-up buildings and retrofitted tech where every detail reflects the resourcefulness of those who call it home. 
+        <br><br>
+        The district is made up of tiered apartment complexes, built atop layer of old industrial infrastructure where balconies are crowded with mismatched furnitures, potted plants and colourful laundry lines that adds a touch of vinbrancy in an otherwise bleak surrounding. 
+        <br><br>
+        Narrow alleys snake between the building, lined with neon lights and serves as a shared spaces for neighbours to mingle, barter and trade. And with the steel walkways and platforms that transverse across apartments, it's made all the more easier.
+        <br><br> 
+        There is an unmistakable hum of conversations during the day, with the night falling into a comfortable silence if not for the gentle clanging of makeshift wind chimes that create a quiet symphony of symphony. 
+        <br><br>
+        Below in the bustling Plaza, music often difts through The Heights from instruments such as harmonica's to the soft strums of guitars in the alleys and up above in the perches of the Heights, the rooftop garden on the tallest building offers residents a rare escape—a place to watch the distant Blackhaven skyline and catch fleeting glimpses of starts.
+        <br><br>
+        Despite its run-down appearance, The Heights is filled with life, laughter and the quiet resolve of a community that has learned to survive without relying on the fractured systems of the wider city. 
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                        BRASS & SPIRITS
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "brass & spirits">>
+    <<dialog "brass & spirits">><div class="justify-text">
+        <span class="archive-topic">location:</span> Blackhaven, center of The Underbelly.
+        <br><br>
+        Tucked away in crevices of The Underbelly, Brass & Spirits is a sancutary of both refuge and danger. The bar's name is a testament to its dual nature— brass, a gleaming metal known for its strength and endureance, and spirits, both the kind that flows in glass and the ambitions of Blackhaven's people. 
+        <br><br>
+        The low hum of the bar's jukebox blends with the chatters of lively conversations, the clinking of mugs and the occasional mutters from the shadows. The bar is dimly lit by flickering lights accompanied by the soft glows of neon signs glowing through the windows. A haze of smoke hangs thick in the air, carrying the scent of cheap tobacco that only addds to the bar's feeling of worn yet lively comfort. 
+        <br><br>
+        Behind the bar, there's an old but sturdy brass counter that shines like an oasis in the room, a relic of another time when Blackhaven's people dreamed of something better. The shelves behind the bar are line with bottles of all shapes and sizes, ranging from standard liquors to those with a more dubious origin. 
+        <br><br>
+        The walls are line with dark wood panelling, chipped and worn from years of use, while the low ceiling is covered in exposed pipes and beams, inheriting the industrial feeling of The Underbelly. There are mistmatched chairs situated in all corners of the bar, paired with dimly glowing sconces. In the back towards the crowded area, a narrow stage lies where performances are hosted, but most of the action happens around the bar itself, where people sit and laugh together. And above it all, a soft tune drifts from a dusty jukebox in the corner. 
+        <br><br>
+        The patrons of Brass & Spirits are a mix of the lost, the broken and the dangerous. It's a place where mercenaries come to relac, smugglers hide from enforcers, and thieves celebrate a successful heist. Yet, it also attracts the desperate and the hopeful—those who come seeking answers and forbidden knowledge, or those who just come in hopes of drowning their sorrows. Either way, all are welcome. 
+        <br><br>
+        The only rule of the place? <span class="archive-topic">don't bring trouble.</span>
+        <br><br>
+        <span class="archive-topic">Brass & Spirits</span> is more than just a bar, it's a home for many and a sanctuary for all. It serves as a neutral ground for all manner of unsavoury characteres, be it criminals in need of a safe haven, informants peddling whispers of the latest happening in the city's underworld, or exiled aristocrats hiding from their past. And though it's a bar by trade, it's often used as a place of meeting for the leaders of the city during after hours. 
+        </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                      ALKENNY'S DINER
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "alkenny's diner">>
+    <<dialog "Alkenny's">><div class="justify-text">
+      <span class="archive-topic">location:</span> Blackhaven, South-East of The Underbelly.
+      <br><br>
+      Nestled in the dimly lit corner of The Underbelly, Alkenny's Diner is a neon-lit haven of greasy comfort and forgotten warmth. Open 24/7 by an owner who seems to never sleep, the diner is one of the few places in Blackhaven that never closes its doors, offering a place of respite for those who've seen too much of the city's dark side.
+      <br><br>
+      The flickering neon sign above the diner buzzes with a soft hum, casting an eerie glow over the cracked sidewalks. The diner itself is a blend of retro fittings and dystopian decay—stainless steel and chrome fixtures covered in layers of grime with booths that have faded from years of use and jukboxes in every corner, blasting out old tunes that make the place seem like it's stuck in time no matter what hour of the day or night. 
+      <br><br>
+      Inside, the air smells of sizzling oil, burnt coffee and that unmistakable scent of friend food—the kind that sticks to your clothes and hair for hours. The walls are a patchwork of chipped vinyl, darkened mirrors and faded photos of long-gone patrons. The is dim but warm, the orange glow from the old ceiling lights softening the sharp edges of the worn decor. 
+      <br><br>
+      The flickering neon outside casts an occasional harsh flash of light into the diner's interior, but it doesn't quite reach the booths. The counters are accompanied with a stretch of faded red leather stools, with each one almost always occupied by someone from the depths of The Underbelly: weary mercenaries, down-and-out smuggling runners, city rats looking to avoid the law or just your average Blackhaven resident looking for some food. 
+      <br><br>
+      <span class="archive-topic">Alkenny's Diner</span> is a place of contradictions. It's both a sanctuary and a den of vice, offering something for everyone who passes through its doors. Those who enter find comfort in the mundane rituals: ordering the same greasy burger ever night, sipping on the diner's infamous coffee or flicking through the worn, dog-eared menu to find something that'll satify the hunger they can't shake.
+      <br><br>
+      However, beneath the surface of the diner lies something darker. It is a place where information flows freely, often more so than the coffee. Those who know where to look can strike deals, trade secrets or make dangerous alliances in the quiet corners of the booth. And similar to Brass & Spirits, it has become a neutral ground where the city's underground meet and where the line between friends and foe blurs like the neon lights outside.
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                        SILVER CRESCENT
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "silver crescent">>
+    <<dialog "silver crescent">><div class="justify-text">
+        <span class="archive-topic">location:</span> Blackhaven, Canal's edge, upper district.
+        <br><br>
+        The Silver Crescent is a rare gem within Blackhaven, a district that manages to balance between artistry and intrigue. Nestled aong the shimmering canal, this crescent-shaped area serves as a haven for creatives, merchants and those seeking from dangers of the underbelly of the city. The streets, though occasionally stained by the remnants of Blackhaven's darker dealings, pulse with life, colour and quiet elegance. 
+        <br><br>
+        In stark contrast to the city's industrial sprawl, the Silver Crescent boasts an air of refinement and culture, drawing in travelers and locals alike with its vibrant art scene and eclectic blend of galleries, public performances and intimate buildings. The district's bridge is a graceful arch above the canal—not only a beautiful piece of architecture but also a symbol of hope for those who still believe in the possibility of beauty amidst the corruption of Blackhaven.
+        <br><br>
+        While art and culture are central to the Crescent, it's not without its share of secrets. Beneath the glossy surface, shadowy figures from the city's higher echelons seek solace, make deals and unwind in exclusive settings, fuewlling the district's subtle but undeniable connection to the city's underworld.
+        <br><br>
+        Here, art is both a refuge and a currency and behind every masterpiece, may lie something darker. 
+        <br><br>
+        The Crescent is a blend of modern sophistication and old-world charm. Buildings with high ceilings and sleek glass facades sit beside crumbling victorian buildings repurposed into bohemian lofts. The district is dotted with vibrant murals and artistic installations, providing colour in a city dominated by drab steel and concrete. 
+        <br><br>
+        Soft, warm lighting spills from open windows and neon signs, casting long shadows on the cobblestone streets. Candlelights and lanterns flicker in the windows of the underground clubs, while floating lights above the canal reflects off the water, creating an ethereal glow in the evenings. 
+        <br><br>
+        There's a constant hum of soft music, street performers playing violins or guitars, and a low murmur of conversations echo through the streets, with sounds of bustling foot traffic mixing with the occassional clinks of glasses in nearby bars. 
+        <br><br>
+        <span class="archive-topic">The Silver Crescent</span> is a refuge for artists, musicians and intellectuals who are drawn to Blackhaven's raw energy and grit but also seek a space to express themselves outside of the chaos. It thrives on duality—on the surface, a place of creativity and freedom and beneath it, a hotbed of intrigure where the city's elite can escape from the eyes of Providenc. In the Crescent, connections are made through art and every brushstroke, note or sculpture holds a meaning to the people.
+        <br><br>
+        Although it is relatively free from trouble, it is not immune to the undercurrent of violence and manipulation that runs through Blackhaven. Deals are struck in the shadows and debts are sometimes paid in ways far less savoury than one can expect. The district is always teetering between beauty and brutality, making it both an escape and a potential trap for those caught in the city's grasp.
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                          THE ONYX
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the onyx">>
+    <<dialog "the onyx">><div class="justify-text">
+        <span class="archive-topic">location:</span> Blackhaven, high north of the districts.
+        <br><br>
+        A clandestine area hidden in Blackhaven that serves as a communal ground and hub for people of Black Dahlia and citizens of Blackhaven. This unassuming and weathered palce sits in the farthest reaches of Blackhaven's industrial zone, blending seamlessly into its surrounding and betraying nothing of the refuge it offers within. 
+        <br><br>
+        Within The Onyx reveals a different kind of world. The walls are built with sturdy blackstone, reinforced with scavenged steel and adorned with sparks of rebellion. Warm lanterns cast flickering lights over the space, blending with functionality and comfort. Rugs made from patchwork cloth cover the floors and wooden benches and tables provide spaces for gathering and rest. The scent of herbal remedies and freshly baked goods fill the air— a testament to the community that thrives within these walls.
+        <br><br>
+        <span class="archive-topic">The Onyx</span> has become more than just a shelter; it is a lifeline for the people of Blackhaven with a purpose to provide protection, resources and a sense of belonging to those who have been cast aside by the city's hard realities. Everyone tries their best to contribute however they can, turning it into a community where even children can play together without fear with salvaged toys, while adults can share stories, plans and dreams for a brighter future.
+        <br><br>
+        Though peace rings through the Onyx, it is also a ground of quiet resistance as its occupants are bound by the shared goal of protecting Blackhaven's people from outer forces like Enforcers and even Los Alacranes. The Onyx's protection is sacred, where neither Enforcers nor Los Alacranes dare to violate its community as in doing so would risk igniting the full fury of the Black Dahlia. This fragile understanding ensures that the Onyx remains untouched. For now.
+    </div><</dialog>>
+  <</link>></button>
+  /* ------------------------------------------------------
+  
+                          LA SOMBRA
+
+  ------------------------------------------------------- */
+  /* <button class="archive-button"><<link "la sombra">>
+    <<dialog "la sombra">><div class="justify-text">
+        One of the 3 major faction that possess a hold on Blackhaven, Los Alacranes, otherwise known as The Scorpions, is the biggest producer of the drug Stingdrop.
+    </div><</dialog>>
+  <</link>></button> */
+</div>
+<br><br>
+<div class="button-container">
+    /* ------------------------------------------------------
+  
+                      THE HOLLOW MARKET
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the hollow market">>
+    <<dialog "the hollow market">><div class="justify-text">
+        <span class="archive-topic">location:</span> Blackhaven, Northern edge.
+        <br><br>
+        A bustling district neart the edge of Blackhaven, the Hollow Market is known for its eclectic mix of goods, from exotice foods to rare antiquities, trinkets and forgotten treaures. While the market itseld is still withing Blackhaven's boundaries and not without its fair share of crime, it has earned a reputatioon for being a safer zone for travelors and merchants compared to other districts.
+        <br><br>
+        The market is lit by warm lanterns and decorated with colourful banners that flutter in the breeze, making it just a bit more inviting. It's a place where people come to to barter goods, tell stories and occasionally glimpse at pieces of the outside world, with visitors from the more affluent Providence sometimes passing through to purchase rare items and trinkets that are only found in bLackhaven.
+        <br><br>
+        In<span class="archive-topic">The Hollow Market</span>, the boundaries between legal and illegal blur into obscurity, and currency that flows through its veins is often far more than just money. It's a place where power, influence and secrets are traded as readily as tangible goods if you know where to look. Anyone who steps foot within its depths must thread carefully, whether theyre looking for the next big scsore or simply trying to disappear from the world above.
+        <br><br>
+        And for those who seek a little more than just mere items, venture a little deeper and you'll find that the market offers things you wouldn't find in the surface. 
+        
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                        VIPER'S DEN
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "viper's den">>
+    <<dialog "viper's den">><div class="justify-text">
+       <span class="archive-topic">location:</span>Border's edge. Between Blackhaven and Providence.
+       <br><br>
+       Viper's Den is a decadent haven for Blackhaven's and Provicence's elite and desperate alike, where indulgence and escape interwines in a heady cocktail of neon shadows. Tucked within the inner borders of the two cities, this establishment pulses with an alluring blend of danger and sophistication. The entrance, marked only the faint violet and pink-ish glow of a coiled serpent, leads down into a labrynthine interior of dimly lit alcoves, mirrored walls and plush seating.
+       <br><br>
+       Here, patrons come to forget their troubles, or perhaps to embrace them. The Den is renowned for its nightly performances, ranging from hypnotic and sensual acts to experimental music that reverberates from the smoky air. The stage, bathed in shifting hues of violet and pink, is the centerpiece, captivating audiences with its alluring energy. Yet, for many, the real draw lies in what happens behind the scenes.
+       <br><br>
+       Stingdrop flows freely within the Den, it's cimson tinctures glittering like forbidden jewel in the hands of waitstaff who move with practiced precision. Some patrons indulge openly, drops of the opiate shimmering on their tongues under the dim light with the company of dancers, while others prefer to reteat into private booths to chase the euphoria in secrecy. 
+       <br><br>
+       The effects are unmistakeable: golden-hued irises flickering like embers in the dark, a telltale sign of the escape that Sting provides. 
+       <br><br>
+       Despite its reputation for vice, the Den is impeccably run. Security is tight and the rules are simple: <span class="archive-topic">don't mess with the dancers and staff, and your secrets are safe.</span> All that occurs in the Den, stays in the Den. It's as simple as that. 
+       <br><br>
+       <span class="archive-topic">Viper's Den</span> has long since become a beloved place of entertainment, temptation and entrapments, all coiled into one seductive serpent. 
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                          THE VEIL
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the veil">>
+    <<dialog "the veil">><div class="justify-text">
+         <span class="archive-topic">location:</span> Blackhaven, outskirts in a polluted district overshadowed by factories. 
+         <br><br>
+         The Veil is a industrial district marred by the toxic legacy of Sting production and factories, its air perpetually thick with the ashen byproduct of the process. Once a modest industrial district with bustling factories, it has transformed into a wasteland where the skies are darkened by plumes of smoke and the ground is coated in a slick film of chemical runoff. The air polluted air is a toxic miasma that hangs over the area like a curse, isolating it from the rest of Blackhaven. 
+         <br><br>
+         With the hisses of leaking pipes and the sputters of machinery, breathing its air without a mask is a gamble as its chemicals can induce coughing fits, hallucinations which can become worse with prolonged exposure.
+         <br><br>
+         Here, chemists, smugglers and Sting users coexist uneasily, drawn to the Veil by its promise fo anonymity. The district is suffused with an acrid haze that clogs the lungs and burns the throat, casting an unnatural grey pall over everything. Neon signs and makeshift lighting struggle to pierce the murk, their flickering glow reflecting off the shimmering air in a surreal dance.
+         <br><br>
+         Though many see the Veil as a place of absolute ruin, some embrace its grim beauty and harsh solitude, finding purpose or escape in amid the bleakness. 
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                      THE BLACK TANK
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the black tank">>
+    <<dialog "the black tank">><div class="justify-text">
+        <span class="archive-topic">location:</span>Blackhaven, deep into the Underbelly.
+        <br><br>
+        The Black Tank is an underground fight club hidden in the deepest darkest corner of the Underbelly. This secretive, blood-soaked arena draws the desperate, the reckless and the hungry, offering them a chance at fortune, glory or a cruel end. It's a place where the rules of society don't apply and survival is the only thing that matters.
+        <br><br>
+        The air is thick with the smell of sweat, blood and the metallic tang of fear. The arena itself is a gritty, sunken makeshift pit surrounded by crumbing concrete, blackened steel fences and neon lights that casts onto the savage spectacle below. Above, lucky spectators crowd around its high fences on steel walkways and platforms where they're eagerly watching the carnage unfold, their roars drowned by the sounds of punches, kicks and sickening thuds of bodies hitting the ground. 
+        <br><br>
+        The fights are brutal, unregulated and often to the death. The Tank is notorious for being a place where stakes are high and the consequences are severe. Fighters enter for many reason—for money, for pride or even for the sake of a thrill, and some, perhaps, because they have nothing left to live for. 
+        <br><br>
+        It is a place where strength and violence dictates worth. For some, it is a proving ground, a place to build reputation and climb the ranks of Blackhaven's ruthless underworld while for others, it's a last ditch effort to escape crushing poverty and debt. And though there are no rules to the pits, The Tank operates with an unspoken code amongst all who walks through their doors: <span class="archive-topic">the fight stays in the pit.</span> Leave your problems at the door or fight them out in within the fences.
+        <br><br>
+        The Black Tank has become a crucible of ambition and brutality, where the darkest corners of Blackhaven's spirits are laid bare despite the horror of it all. The Tank has remained popular among the people and for those who survive, it's a brutal proving ground. For the rest, it is a grave. 
+    </div><</dialog>>
+  <</link>></button>
+</div>
+
+<br><br>
+<div class="button-container">
+  /* ------------------------------------------------------
+  
+                        Virexis
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "virexis">>
+    <<dialog "virexis">><div class="justify-text">
+        Virexis is an experimental serum formulated for you by Tiberius as a means to counteracts the conditions you suffer from. Without it, the chronic headaches you endure worsens, especially if you push yourself too far. The headaches are often accompanied by nosebleeds and in worst cases, hallucinations and loss of control, leading you to depend on it to offer you some reprieve when the strain becomes too much.
+        <br><br>
+        The serum possesses a deep purple hue that shimmers and casts an eerie glow when caught at the right angle. It's housed in sleek, metallic vials that you keep in a case, carrying at least one vial with you at all times should the effects of your condition flare unexpectedly. 
+        <br><br>
+        Administering the serum is usually done with a specialized injector that delivers the serum directly into your bloodstream. However, when you're out in the field and can't risk losing your head, you can insert the vials into the chambers on either side of your mask. As you breathe, the mask aerosolizes the serum, releasing small doses at timed intervals. 
+        <br><br>
+        Once administered, Virexis courses through your veins, instantly dulling the effects of your condition and easing the tension that constantly gnaws at you. Your strength and focus surges and your senses sharpen.
+        <br><br>
+        When using the mask to administer the serum, it has been noted that the chambers hiss when you exhale, expelling a purple vapor that saturates the air around you. This distinctive hiss, combined with the purple mist, has become a signature of your presence. To those who cross you, it is seen as an omen—the harbinger of their end.
+    </div><</dialog>>
+  <</link>></button>
+  /* ------------------------------------------------------
+  
+                          STINGDROP
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "stingdrop">>
+    <<dialog "stingdrop">><div class="justify-text">
+      Stingdrop is a potent and highly addictive opiate that has become a scourge in the city's most impoverished districts. Housed in a distinctive tincture bottle adorned with a scorpion emblem, Stingdrop is instantly recognizable by its crimson hue, which shimmers with an almost hypnotic silver gleam when caught in the light, while its scorpion tail-like dropper delivers its dangerously alluring dose where a single drop is enough to send users into a euphoric escape. 
+      <br><br>
+      The drug's origin lie in a failed attempt at creating a potent psychoactive agent. When the formula was deemed too dangerous and was slated for destruction,  rogue developer seized the opportunity to smuggle it out and sell it to the highest bidder, leading to Los Alacranes capitalising on the formula and perfecting the drug and flooding the streets with it. Today, Stingdrop is one of their most lucrative enterprises, fueling their rise to dominance in the city's drug trade. 
+      <br><br>
+      The effects of Stingdrop are as seductive as they are dangerous. Users experience intense euphoria, vivid hallucinations and a warped sense of time. For the downtrodden of Blackhaven, the drug offeres a fleeting reprieve from their bleak reality, transforming their misery into a golden dream. 
+      <br><br>
+      With each use of Sting, it leads to an affect people call "stinger eyes"—a shimmering golden hue in the irises that markets people as a user and betraying their addiction. With prolongued use of Sting, it has been reported that the effects of the golden hues become permanent, while misuse of the opiate leads to overdosing with symptoms of paranoia, psychosis and a grim end.
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                        SHADOW WALKING
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "shadow walking">>
+    <<dialog "shadow walking">><div class="justify-text">
+        Shadow walking is a rare and taxing ability that allows you to slip through the shadows and travel across vast distances in the blink of an eye. When you use it, the world around you seems to warp and stretch as you meld into the darkness, vanishing from sight and reappearing in a distant shadow. The sensation of leaving your body, even momentarility is both disorienting and exhausting, leaving you in a weakened state and vulnerable when you emerge from the shadows.
+        <br><br>
+        This ability may be help you at times, but this power comes at a steep price. Each use places a tremendous strain on your body and texing your physical endurance. The longer the distance you travel, the greater the toll it takes. 
+        <br><br>
+        This ability requires you to have a clear line of sight to your destination. If you cannot see where you're going, using this ability may result in dire consequences. Shadows are also required to be present; if there are no shadows for you to walk through, the ability will not work. Among that, the darkness must be within your reach for you to slip through them.
+        <br><br>
+        As a result, shadow walking is a last-resort move, used only when the situation demands it. You can't rely on it for every confrontation or escape and you must weigh the costs carefully before stepping into the shadows.
+    </div><</dialog>>
+  <</link>></button>
+
+   /* ------------------------------------------------------
+  
+                        THE ECHO CHAMBER
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the echo chamber">>
+    <<dialog "the echo chamber">><div class="justify-text">
+        An unsettling construct of unknown origin. <<if $echoChamber_access is true>>It resembles a small room-like structure that's forged from an obsidian-like material that seems to absorb light rather than reflect it. Its interior hums faintly, with rumours swirling that those who enters it are able to hear whispers as though the walls themselves hold echoes of countless voices.<</if>>
+        <br><br>
+        No one really knows who built the chambers or why it exists, only that The Council has kept its access unfathomly restricted from both citizens and enforcers alike.
+    </div><</dialog>>
+  <</link>></button>
+</div>
+
+<br>
+<div class="archive-title">Groups</div>
+<div class="button-container">
+  /* ------------------------------------------------------
+  
+                      THE NIGHT COURT
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the night court">>
+    <<dialog "The Night Court">><div class="justify-text">
+        The Night Court is what you can best describe as a shadow organisation. They thrive on secrecy and manipulation and their influences stretches deep within Blackhaven. They operate from the darkest corners of the city, acting as unseen puppeterrs who control the unexpected. 
+        <br><br>
+        Many tell tales of the Court, with some not believing that they even exist. But those who have have the misfortune of meeting them knows. The true extent of their reach is unknown, though it can be guessed to be far.
+        <br><br>
+        They claim to seek balance, working to ensure that those in power do not become too comfortable in their place. They see themselves as protector's of the city's soul, acting as a counterforce to the growing corruption in Blackhaven and Providence alike. However, the Court's tactics are ruthless, and the means they employ are often as morally grey as their goals. 
+        <br><br>
+        They value order through control and believe that the world is best maintained through careful manipulation, choosing to steer events from the shadows rather than through open confrontation.
+        <br><br>
+        While their influence is felt across the two cities, the true heart of the Court remains a mystery and those who question its purpose or dig too deep are often no longer able to be found. Their operatives are ''Shadows''—silent, skilled and loyal, carrying out the will of the Court without question, for loyalty is the key to survival. 
+        <br><br>
+        The Night Court operates with one guiding principle: ''the world must be shaped by unseen hands.'' Whether by assassination, blackmail or carefully executed acts of sabotafe, they believe that order can only be achieved by keeping control in the shadows. Though they claim to seek balance, the true nature of their leadership and their long-term goals remain obscurred. All that is known is the belief that they must watch over the city and ensure that the natural order is never disrupted by those who seek to tip the scales of power in their favour. 
+        <br><br>
+        The Court operates like a well-oiled machine, with each member playing a role in maintaining the delicate balance of power. Members remain unseen, blending into the crowds with ease and identified only by a symbol and phrase known only to themselves. 
+        <br><br>
+        Its agents are skilled in espionage, sabotage and assassination and their loyalty is to the Court above all else. Most members are kept in the dark about the true aims of the Court, serving as mere pawns in a much larger scheme, with only the most trusted being allowed a glimpse into the bigger picture. 
+        <br><br>
+        After all, what you don't know doesn't hurt you.  
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                        BLACK DAHLIA
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "black dahlia">>
+    <<dialog "black dahlia">><div class="justify-text">
+        Black Dahlia stands as a defiant force in Blackhaven, a symbol of rebellion and resistance against the suffocating grip of Providence. Born from the oppressive conditions of the city's lower districts, this organisation has become a beacon of hope for the disenfranchised, positioning themselves as both protectors and avengers of the underbelly.
+        <br><br>
+        Built on the ideals of freedom, justice, and loyalty, Black Dahlia is made up of outcasts, mercenaries and spies—anyone who dreams of a free city. They're rebels at heart, operating in both the light and in the shadows by using their network of informants and spies embedded throughout Blackhaven to stay one step ahead of the forces of Providence. Their strength lies not only in the might of their fighters but also in the intricate webs of eyes and ears that ensure they are always a move ahead. 
+        <br><br>
+        To the people of Blackhaven, Black Dahlia is both a shield and sword, offering protection and support to those who struggle against the Enforcers and the higher-ups. They are a refuge for the weak and a whisper of revenge for the wronged, often striking at Providence with well-timed attacks and sabotage.
+        <br><br>
+        At its core, Black Dahlia is a group bound by unwavering loyalty, justice, and defiance. While they are fierce fighters, they are also spies, tacticians, and master strategists. They've built a complex structure is one where trust is earned and betrayal is not tolerated and every member plays a crucial role in the greater cause, regardless of their background.
+        <br><br>
+        However, despite their efforts to protect and avenge the people of Blackhaven, Black Dahlia's influence have brought them into a bitter feud and unyielding feud with ''Los Alacranes''. The two groups share the ultimate goal of liberating Blackhaven and turning it into a free state, but their methods and ideals are worlds apart.
+        <br><br>
+        Where Los Alacranes rely on sheer power, violence and intimidation, Black Dahlia seeks to outsmart, outmaneuver and outlast their enemies with precision, strategy and unity.
+        <br><br>
+        Black Dahlia may be painted as rebels, but they are in truth, the underground heartbeat of Blackhaven, ready to rise against those who seek to control the city's fate. They're not just fighting for survival— they are fighting for a future where blackhaven's people are no longer pawns in a game of power, but players of their own destiny. 
+        <br><br>
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                        LOS ALACRANES
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "los alacranes">>
+    <<dialog "Los Alacranes">><div class="justify-text">
+      Los Alacranes, known as ''The Scorpions'', wields an iron grip over the city's criminal underworld. Rising from the depths of Blackhaven's industrial sector, they've come to dominate the city's most lucrative and dangerous trade: ''Stingdrop''. Their influence stretches beyond Blackhaven's norders, reaching into Providence and surrounding territories. 
+      <br><br>
+      The Scorpions have built their empire on the foundations of violence, intimidation and power, becoming the unquestioned rulers of the drug market. And with weapon factories under their control, they produce not only Sting but also the weapons that keeps their enemies at bay. Their stockpiles of arms, explosives and military grade equipment make them a force to be reckoned with. 
+      <br><br>
+      Despite constant attempts by the Enforcers to shut down their operations, drug and weaponry alike, Los Alacranes have proven to be untouchable, their resilience born from a network of loyal allies, powerful leaders and utter brutality. They know that the city's elites, including those in Providence are either afraid or complicit in their reign. They have mastered the art of surivval, thriving in a world where violence is the rule and betrayal is a constant companion.
+      <br><br>
+      Though beneath their ruthlessness lies a wish for Blackhaven: freedom. They seek to to free Blackhaven from the control of the city's elite, but they do so by manipulating the underworld, controlling it with a steady hand and a sharp sting. They want to reshape the city according to their own ideals, using power and fear to carve out a new world order that puts Blackhaven on top.
+      <br><br>
+      Their long-standing feud with Black Dahlia has become a reflection of their approach to power. Where Black Dahlia intends to free the people with subterfuge and stragetic manipulation, Los Alacranes believe in open warfare and crushing their enemies beneath the weight of their power. 
+      <br><br>
+      Once, the two factions shared a common ground but now their differences in methods have led to an all-consuming animosity that often spills into violent confrontations. 
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                        THE ORDER
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the order">>
+    <<dialog "the order">><div class="justify-text">
+        The Order serves as the official law enforcement agenct of Providence, extending its reach into Blackhaven to maintain "order" in the chaotic city. They are the iron fist of Providence's rule, enforcing laws with a rigid sense of justice that often alienates the very people they claim to protect.
+        <br><br>
+        It's ranks are made of Enforcers, operating with an ironclad hierarchy and an arsenal of advanced weaponry and technology that gives them an edge over the underworld they aim to keep in order. Their presence in Blackhaven is marked by patrols through the streets, checkpoints at key locations between the borders of Blackhaven and Providence and frequent crackdowns on suspected criminal activity. However, their tactics are often heavy-handed, breeding resentment among the populace.
+        <br><br>
+        Citizens of Blackhaven view the Enforcers with disdain, seeing them not as protectors but as oppressors who uphold Providence's control of order at the expense of Blackhaven's autonomy. To the people of Blackhaven, they are nothing more than a force more interested in maintaining power than delivering true justice. 
+        <br><br>
+        While their presence is intended to bring order to the unruly streets, it has only deepened the divide between Blackhaven and its sister city. 
+    </div><</dialog>>
+  <</link>></button>
+
+  /* ------------------------------------------------------
+  
+                        THE ORDER
+
+  ------------------------------------------------------- */
+  <button class="archive-button"><<link "the council">>
+    <<dialog "the council">><div class="justify-text">
+        Much like the city they govern, the Council embodies a delicate balance of progress, innovation, and tradition, with its members representing the most powerful sectors of Providence's society. Each decision they make defines the trajectory of the city.
+        <br><br>
+        The Council is a unified body of influential individuals, chosen not only for their expertise but also for their standing within Providence's critical spheres—technology, science, law, politics, and industry. Their diverse backgrounds mirrors the city's layered complexity, with each member wielding significant sway in their domain. From idealists eager to push the boundaries of what Providence can achieve to pragmatists and traditionalists intent on preserving the current status of their city, the Council's dynamics are a reflection of the city itself.
+        <br><br>
+        Despite their positions of power, the Council members are not immune to the burdens of leadership. They carry the weight of shaping the future of Providence, balancing the demands of their citizens while trying to manage the chaos that emanates from their sister city, Blackhaven.
+        <br><br>
+        Their decisions ripple far beyond the gilded streets of Providence, shaping the lives of those in the shadowy depths of Blackhaven, where their influence is felt most harshly. While they are publicly hailed as the city's stewards, privately, the Council is marked by internal power struggles, ideological conflicts, and deeply guarded secrets. The tension between their polished image and their fractured unity defines their rule—a precarious balance that could lead to Providence's greatest triumphs or its deepest downfall.
+    </div><</dialog>>
+  <</link>></button>
+  
+</div>
+
+
+<br>
+<div class="archive-title">Providence</div>
+<div class="button-container">
+  <button class="archive-button"><<link "willowmere park">>
+    <<dialog "willowmere Park">><div class="justify-text">
+         <span class="archive-topic">location:</span> Providence, at the core of Willowmere, middle district.
+         <br><br>
+         Willowmere Park is a lively and vibrant area in Providence that offeres a rare sense of communnity and simplicity that draws regular citizens away from the polished high-tech districts of the elite. Located on the outskirts of the city's gleaming core, Willowmere Park stands as a testament to Providence's working-class spirit. It's cobblestone streets are lineed with a mix of the old and new—a blend of modest homes and local shops. 
+         <br><br>
+         The park itself is sprawling space, filled with open lawns, weathered benches and winding walking paths that lead through clusters of trees and flowers. Its landscape is painted with hand-drawn murals, art installations and the occasional pop-up market selling handmade goods or fresh produce grown from nearby urban farms.
+         <br><br>
+         Unlike the pristine and manicured parks in the upper districts, Willowmere Park provides a more organic, lived-in feel where the people are as much as part of the landscape as the grass and trees themselves. Families are often seen gathering for picnics, with children playing games in open fields, animals running free and streets performers adding a touch of music and theater to the lively atmosphere. 
+         <br><br>
+         <span class="archive-topic">Willowmere Park</span> and its central square  is the heart of its social life, with modest cafés and food carts offering local specialties and small shops selling everything from secondhand books to handmade trinkets. The air is always filled with the hum of casual conversation, the clink of coins being exchanged and the smell of street food. It is a space for everyone.
+    </div><</dialog>>
+  <</link>></button>
+
+  <button class="archive-button"><<link "the glass garden">>
+    <<dialog "the glass garden">><div class="justify-text">
+      <span class="archive-topic">location:</span> Providence, within the Aurora District.
+      <br><br>
+      The Glass Garden is a hidden sanctuary nestled within Providence, tucked behind the towering spires of sleek architecture and the bustling luxury of the upper districts. It's situated in the more affluent sector of the city, lying on the quiet edge od the district of Aurora, a place where the city's elite come to seek respite from the unyielding drive of progress.
+      <br><br>
+      The entrance is concealed beneath a lavish wrought-iron archway, intricately designed with swirling patterns that seem to shimmer in the light. The gate, flanked by towering marble columns is often overlooked by the busy foot traffic of high society, blending seamlessly with the surrounding opulence.
+      <br><br>
+      Beyond the gate, a tranquil expanse of meticulously cultivated greenery and glass structures unfold, providing an oasis of calm amidst the gleaming, fast-paced world of providence.
+      <br><br>
+      <span class="archive-topic">The Glass Garden</span> is renowned for its stunning comparison of nature and refinement. The glass structures, both delicate and intricate, allow the sunlight to pour through, creating shimmering reflections across the garden's verdant foliage. The air smells faintly of rare blooms, mingled with the subtle scents of polished stone and the occasional trace of synthetic perfumes from passerbys. 
+    </div><</dialog>>
+  <</link>></button>
+
+  <button class="archive-button"><<link "verdant">>
+    <<dialog "verdant">><div class="justify-text">
+        ''The Scorpions.''
+        <br><br>
+        As one of the three major factions in Blackhaven, Los Alacranes has risen to prominence in the city's underbelly through their production of Stingdrop. This notorious faction wields significant powerm maintaining an iron grip on the drug trade. Their influence stretches beyond Blackhaven and into its sister city, Providence. 
+        <br><br>
+        They also possess control of some of Blackhaven's biggest weapon factories, making them the leading force in producing weaponry as well as Sting. 
+        <br><br>
+        Enforcers have attempted to shut down Sting production ever since the drug first hit the markey, but despite their relentless efforts, the Scorpions have proven time and time again that neither they nor their product can be stopped.
+        <br><br>
+        For quite some time, Los Alacranes have been embroiled in a bitter feud with the Black Dahlia. The animosity between these two factions runs deep, with each encounter teetering on the brink of viollence and affecting Blackhaven in more ways than they care to admit. 
+        <br><br>
+        Curiously, it wasn't always this way. Some might say that Los Alacranes and Black dahlia were once close alliws, but that remains only a distant memory now. 
+        <br><br> 
+        The only thing they have in common with Black Dahlia now, is that they wish to free Blackhaven from those who seek to control it. 
+    </div><</dialog>>
+  <</link>></button>
+ 
+</div>
+
+
+
+
+
+<br>
+<div class="archive-title">entities</div>
+<div class="button-container">
+  <button class="archive-button"><<link "dieties" "archive-2">><</link>></button>
+  <button class="archive-button"><<link "eldritch" "archive-2">><</link>></button>
+</div>
+<</nobr>>
+:: archive-2
+suck it 
